@@ -109,19 +109,6 @@ The thesis _leads_ with the framework (deliverables 1–3) and presents the prot
 
 ---
 
-## What's Done
-
-| Artifact                            | Status        | Notes                                                                                                                               |
-| ----------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Architecture decision document (v2) | ✅ Complete   | 1015 lines. Covers orchestration, skills, Obsidian choice, interaction patterns, vault structure, backend stack.                    |
-| Core stack decisions                | ✅ Settled    | All TypeScript. Anthropic SDK, MCP server, Obsidian plugin, skills as markdown.                                                     |
-| Skill concept design                | ✅ Conceptual | Skills as conversational stances (not output types). Role, withholding rules, artifact types, transition offers, vault interaction. |
-| Interaction pattern design          | ✅ Designed   | Four patterns (A–D) with implementation order. Pattern B (inline callouts) identified as highest TfT value.                         |
-| Research paper analysis             | ✅ Done       | Deep understanding of Zhang et al. CHI 2026, the three themes, Rogers et al. outcome types.                                         |
-| Thesis scope understanding          | ✅ Clear      | Thesis A (strategies), not Thesis B (evaluation). Four deliverables understood.                                                     |
-
----
-
 ## What's Not Done
 
 | Work item                                        | Deliverable it feeds | Priority                                                 |

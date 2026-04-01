@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
+                "file": "thesis_overview.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "thesis_overview"
             }
           }
         ]
@@ -183,11 +183,17 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "112d20c1942fee90",
+  "active": "508b6ed87f06464d",
   "lastOpenFiles": [
-    "CLAUDE.md",
+    "sources/_paper-template.md",
+    "obsidian_idea/test-boilerplate.md",
     "thesis_overview.md",
-    "tft-architecture-overview.md",
-    "Home.md"
+    "Unbenannt.base",
+    "Home.md",
+    "obsidian_idea/tft-architecture-overview.md",
+    "literature-review-reading-plan.md",
+    "obsidian_idea",
+    "sources",
+    "CLAUDE.md"
   ]
 }
