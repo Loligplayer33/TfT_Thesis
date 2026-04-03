@@ -7,11 +7,18 @@
   "citeFormats": [],
   "exportFormats": [
     {
-      "name": "Overview Paper",
-      "outputPathTemplate": "literature_review_workflow/week_01_overview/{{citekey}}.md",
-      "imageOutputPathTemplate": "{{citekey}}/",
-      "imageBaseNameTemplate": "image",
-      "templatePath": "literature_review_workflow/templates/overview-paper-template.md"
+      "name": "Import overview paper",
+      "outputPathTemplate": "Literature Review/imports/{{citekey}}.md",
+      "imageOutputPathTemplate": "Literature Review/zotero_notes/{{citekey}}-zotero-notes-assets",
+      "imageBaseNameTemplate": "annotation",
+      "templatePath": "Literature Review/templates/overview-paper-template.md"
+    },
+    {
+      "name": "Import Zotero notes",
+      "outputPathTemplate": "Literature Review/zotero_notes/{{citekey}}-zotero-notes.md",
+      "imageOutputPathTemplate": "Literature Review/zotero_notes/{{citekey}}-zotero-notes-assets",
+      "imageBaseNameTemplate": "annotation",
+      "templatePath": "Literature Review/templates/zotero-notes-template.md"
     }
   ],
   "citeSuggestTemplate": "[[{{citekey}}]]",

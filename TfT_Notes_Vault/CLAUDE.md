@@ -30,37 +30,46 @@ This vault is the **research and thinking workspace** for deliverables 1–3. It
 
 This vault is **not** the prototype codebase. The prototype is developed separately.
 
-## Primary Research Grounding
+## Current Literature Workflow
 
-The thesis builds on the CHI 2026 workshop paper:
+The current literature-review workflow in this vault is centered in:
 
-> Zhang et al. (2026). "Tools for Thought: Understanding, Protecting, and Augmenting Human Cognition with Generative AI — From Vision to Implementation." CHI EA '26.
+- [[Literature Review/README]]
+- [[Literature Review/workflow-overview]]
+- [[ai/zotero-import-template-guide]]
 
-Key concepts from this paper that frame the thesis:
+### Import Logic
 
-- **Process-oriented support** — helping users reason _forward_ to their own solution rather than _backward_ from an AI-generated one (Zhang & Reicherts, source [24])
-- **The perception-performance paradox** — users may perceive AI as more helpful even when their cognitive outcomes are worse (Kreijkes et al. 2025)
-- **Intermediary artifacts** — notes, diagrams, outlines that scaffold thinking; AI often causes users to skip these
-- **The adoption tension** — cognitive friction strategies face resistance from users who expect AI to accelerate workflows
+- Main literature notes are imported into `Literature Review/imports/`.
+- Raw Zotero notes and annotation-heavy imports are stored in `Literature Review/zotero_notes/`.
+- Raw Zotero notes and their asset folders should stay in `zotero_notes` so re-imports keep updating the same files.
+- Imported filenames should stay **citekey-based**, not title-based, because long title-based filenames caused problems in the OneDrive-backed vault.
 
-## Key Sources to Engage
+### Current Zotero Integration Commands
 
-|Source|Contribution|
-|---|---|
-|Zhang et al. CHI 2026|Primary framing paper — TfT strategies, outcomes, adoption|
-|Tankelevitch et al. 2025 (CHI 2025 workshop synthesis)|34 concrete TfT designs from the research community|
-|Zhang & Reicherts 2025|Process-oriented support, forward-reasoning as design principle|
-|Sarkar 2024 ("AI Should Challenge, Not Obey")|The Provocateur role — AI as challenger rather than assistant|
-|Rogers et al. 2025|Three outcome types: intermediary, cognitive, task|
-|Bjork — Desirable Difficulties|Making tasks strategically harder improves learning|
-|Kapur — Productive Failure|Struggle before instruction leads to deeper understanding|
-|Vygotsky — Scaffolding / ZPD|Temporary support structures removed as competence grows|
-|Kreijkes et al. 2025|Perception-performance paradox|
-|Lehmann et al. 2024|Solution-seeking harms learning, explanation-seeking helps|
-|Fan et al. 2025|Metacognitive laziness from GenAI use|
-|Ashktorab et al. 2025|User resistance to cognitive forcing functions|
-|Kazemitabaar et al. 2025|Cognitive engagement techniques in programming education|
-|Lira et al. 2025|AI assistance _can_ enhance skill development|
+- `Import overview paper`
+  - creates the main thinking note for overview-type papers
+- `Import Zotero notes`
+  - creates the companion raw note with Zotero item notes and PDF annotations
+  - uses the stable `zotero_notes` folder
+
+### Asset Handling
+
+- The Zotero-notes import owns the stable asset location:
+  - `Literature Review/zotero_notes/{{citekey}}-zotero-notes-assets`
+- Main-note imports may still trigger annotation asset extraction because of plugin behavior.
+- To avoid stray top-level asset files, main-note imports should share the same asset path and base naming as the Zotero-notes import, rather than creating a separate asset folder.
+
+## Literature Framing
+
+The detailed literature framing for this thesis should be treated as **provisional** and may evolve during the review.
+
+For current reading orientation and source priorities, consult:
+
+- [[Thesis Overview]]
+- [[Literature Review/README]]
+
+Do not assume that one workshop paper or one current source list is the final settled grounding unless the notes in those locations clearly say so.
 
 ## How to Help in This Vault
 
@@ -70,3 +79,15 @@ When working in this vault, keep in mind:
 - **The user is the thinker.** This vault exists to scaffold _David's_ thinking. When in doubt, ask questions rather than produce conclusions. This is a thesis about preventing cognitive offloading — practice what it preaches.
 - **Respect the structure.** If the vault has a folder structure or naming conventions, follow them. If unsure, ask before reorganizing.
 - **Connect, don't duplicate.** When creating or editing notes, link to existing relevant notes rather than restating their content.
+- **Keep shared AI context current.** If a change affects future chats or multiple agent contexts, update the relevant files in `ai/` and any canonical instruction/context note such as this one.
+
+## Agent Guidance
+
+If you are an AI agent entering this vault fresh:
+
+- Read this file first.
+- Then read [[ai/zotero-import-template-guide]] if the task touches Zotero imports, note templates, or workflow automation.
+- Then read the most relevant workflow note in [[Literature Review/workflow-overview]] before changing structure or templates.
+- If you change shared workflow, config, folder structure, naming conventions, or the project's current phase, update the relevant notes in `ai/` before you finish.
+
+If a tool also supports `AGENTS.md`, use that file as the entrypoint for general conventions and treat this file as the fuller project-context note.
