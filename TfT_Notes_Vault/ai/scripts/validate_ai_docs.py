@@ -16,7 +16,6 @@ REQUIRED_FILES = [
     VAULT_ROOT / "ai" / "README.md",
     VAULT_ROOT / "ai" / "zotero-import-template-guide.md",
     VAULT_ROOT / "Literature Review" / "README.md",
-    VAULT_ROOT / "Literature Review" / "workflow-overview.md",
     VAULT_ROOT / ".obsidian" / "plugins" / "obsidian-zotero-desktop-connector" / "data.json",
 ]
 
@@ -26,7 +25,6 @@ CHECK_LINK_FILES = [
     VAULT_ROOT / "ai" / "README.md",
     VAULT_ROOT / "ai" / "zotero-import-template-guide.md",
     VAULT_ROOT / "Literature Review" / "README.md",
-    VAULT_ROOT / "Literature Review" / "workflow-overview.md",
 ]
 
 FORBIDDEN_SUBSTRINGS = [

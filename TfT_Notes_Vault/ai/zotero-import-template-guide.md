@@ -92,6 +92,26 @@ Use this note in future AI chats when changing or extending the Zotero Integrati
 - `Zotero Item Notes` means standalone child notes in Zotero.
 - Comments typed onto PDF highlights belong to `PDF Annotations`, not `Zotero Item Notes`.
 
+## How To Work With A Paper
+
+After import, the thinking work should happen in the main literature note, not inside the plugin config or the raw Zotero note.
+
+1. Add the paper to Zotero.
+2. Read and annotate it in Zotero.
+3. Run `Import overview paper`.
+4. Run `Import Zotero notes` for the same paper.
+5. Open the main note in `Literature Review/imports/` and the companion raw note in `Literature Review/zotero_notes/`.
+6. Leave the raw Zotero note and its assets in `zotero_notes` so re-imports keep updating the same files.
+7. Fill the main note with the thesis-facing synthesis:
+   - why the paper matters
+   - key concepts
+   - distinctions or categories
+   - tensions
+   - relevance for the thesis
+   - next follow-up
+
+The plugin creates the shell and imports the raw material. The analytical sections are completed manually.
+
 ## Important Caveats
 
 - The plugin's built-in `Import notes` command exists but is not part of this workflow.
@@ -141,5 +161,4 @@ If starting from a fresh chat, summarize the setup like this:
 
 ## Related Notes
 
-- [[workflow-overview]]
 - [[Literature Review/README]]

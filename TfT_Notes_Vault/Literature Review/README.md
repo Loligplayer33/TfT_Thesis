@@ -6,8 +6,9 @@ tags:
   - thesis
 aliases:
   - Lit Review Workflow
+  - Reading Plan - Literature Review
+  - Literature Review Reading Plan
 ---
-
 # Literature Review Workflow
 
 This folder contains a lightweight workflow for handling your first thesis reading phase across Zotero, Obsidian, and Codex.
@@ -79,7 +80,83 @@ These are important working sources, but they should be treated as a provisional
 | Kazemitabaar et al. 2025 | Cognitive engagement techniques |
 | Lira et al. 2025 | Cases where AI can support skill development |
 
+## Reading Sequence
+
+The literature review should answer one guiding question:
+
+**What design and usage strategies exist, or can be derived, that help prevent cognitive offloading when people use GenAI?**
+
+To answer that, read in this sequence:
+
+1. Understand the problem.
+2. Understand the theoretical foundations.
+3. Map the current strategy landscape.
+4. Deepen the core learning-science anchors from the thesis spec.
+
+### Phase 1: Understand The Problem
+
+Goal: build a precise picture of how GenAI can erode cognition and why a TfT framing is needed.
+
+- Priority: Colombatto, Rintel & Tankelevitch (2025)
+- Priority: Tankelevitch et al. (2024)
+- Priority: Lee et al. (2025)
+- Priority: Fan et al. (2025)
+- Priority: Kreijkes et al. (2025)
+- Then: Bastani et al. (2025), Noy & Zhang (2023)
+
+### Phase 2: Understand The Theoretical Foundations
+
+Goal: identify the design principles and explanatory frameworks the taxonomy will lean on.
+
+- Priority: Lehmann, Cornelius & Sting (2024)
+- Priority: Zhang & Reicherts (2025)
+- Priority: Lira et al. (2025)
+- Then: Kazemitabaar et al. (2025), Ashktorab et al. (2025), Rogers et al. (2025), Singh et al. (2025)
+- Supporting framing: Sarkar (2024), Sarkar (2024) "Intention Is All You Need", Sarkar et al. (2024)
+
+### Phase 3: Map The Strategy Landscape
+
+Goal: extract concrete strategy patterns, roles, and design examples from TfT work and adjacent research.
+
+- Priority: Tankelevitch et al. (2025) workshop synthesis
+- Priority: Zhang et al. (2026) framing paper
+- Then: Zheng et al. (2023), Terzimehic et al. (2025)
+- Context only: Robinson (2024), EY Americas (2023)
+
+### Phase 4: Deepen The Thesis Anchors
+
+Goal: connect the literature review back to the explicit theory base named in the thesis spec.
+
+- Bjork: Desirable Difficulties
+- Kapur: Productive Failure
+- Vygotsky / Wood, Bruner & Ross: Scaffolding and the Zone of Proximal Development
+
+## Suggested Sequence
+
+| Week | Focus | Sources |
+| --- | --- | --- |
+| 1 | The problem | Colombatto et al., Lee et al., Fan et al., Kreijkes et al. |
+| 2 | Core design principles | Zhang & Reicherts, Lehmann et al., Sarkar, Lira et al. |
+| 3 | Strategy landscape | Tankelevitch et al. synthesis, Kazemitabaar et al., Ashktorab et al. |
+| 4 | Theoretical anchors | Bjork, Kapur, Wood/Bruner/Ross |
+| 5 | Framework sources | Rogers et al., Singh et al., Sarkar follow-up pieces |
+| 6 | Adoption and context | Zheng et al., Terzimehic et al., Tankelevitch et al. (2024) |
+
+Treat this as a guide, not a rigid schedule. The starred or priority papers should anchor the reading, and the rest can be skimmed or deferred depending on time.
+
+## What To Extract From Each Paper
+
+When you read, capture these points in the overview note:
+
+1. What cognitive problem or risk the paper identifies.
+2. What mechanism explains the problem.
+3. What strategy the paper proposes, tests, or implies.
+4. Whether that strategy is mainly a design strategy or a usage strategy.
+5. What AI role the paper suggests, if any.
+6. What cognitive function is being protected or augmented.
+7. How strong the evidence is.
+
 ## Start Here
 
-- Use [[overview-paper-template]]
-- Use [[week-01-current-focus]]
+- Use [[Literature Review/templates/overview-paper-template]]
+- Use [[Literature Review/Overview Papers/week-01-current-focus]]

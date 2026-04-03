@@ -41,5 +41,5 @@ status: draft
 ## Notes to Revisit
 
 - [[Thesis Overview]]
-- [[literature-review-reading-plan]]
+- [[Literature Review/README|Reading Plan - Literature Review]]
 - [[Literature Review/README|Literature Review Workflow]]
