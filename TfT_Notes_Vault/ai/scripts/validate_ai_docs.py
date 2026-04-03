@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -13,19 +14,30 @@ VAULT_ROOT = WORKSPACE_ROOT / "TfT_Notes_Vault"
 REQUIRED_FILES = [
     VAULT_ROOT / "AGENTS.md",
     VAULT_ROOT / "CLAUDE.md",
+    VAULT_ROOT / "THESIS_CONTEXT.md",
     VAULT_ROOT / "ai" / "README.md",
     VAULT_ROOT / "ai" / "zotero-import-template-guide.md",
     VAULT_ROOT / "Literature Review" / "README.md",
     VAULT_ROOT / ".obsidian" / "plugins" / "obsidian-zotero-desktop-connector" / "data.json",
+    # Root-level entrypoints
+    WORKSPACE_ROOT / "AGENTS.md",
+    WORKSPACE_ROOT / "CLAUDE.md",
 ]
 
+# CLAUDE.md files are symlinks to AGENTS.md — only check AGENTS.md to avoid duplicate wikilink errors
 CHECK_LINK_FILES = [
     VAULT_ROOT / "AGENTS.md",
-    VAULT_ROOT / "CLAUDE.md",
+    VAULT_ROOT / "THESIS_CONTEXT.md",
     VAULT_ROOT / "ai" / "README.md",
     VAULT_ROOT / "ai" / "zotero-import-template-guide.md",
     VAULT_ROOT / "Literature Review" / "README.md",
 ]
+
+# Symlinks that must point to the correct target
+EXPECTED_SYMLINKS = {
+    VAULT_ROOT / "CLAUDE.md": "AGENTS.md",
+    WORKSPACE_ROOT / "CLAUDE.md": "AGENTS.md",
+}
 
 FORBIDDEN_SUBSTRINGS = [
     "literature_review_workflow",
@@ -59,6 +71,19 @@ def check_wikilinks(errors: list[str]) -> None:
                 continue
             if raw_target not in known_targets:
                 errors.append(f"Broken wikilink in {path.relative_to(VAULT_ROOT)}: [[{raw_target}]]")
+
+
+def check_symlinks(errors: list[str]) -> None:
+    for path, expected_target in EXPECTED_SYMLINKS.items():
+        if not path.exists():
+            continue  # already caught by check_required_files
+        if not path.is_symlink():
+            errors.append(f"{path.relative_to(WORKSPACE_ROOT)} should be a symlink to {expected_target}")
+        elif os.readlink(path) != expected_target:
+            errors.append(
+                f"{path.relative_to(WORKSPACE_ROOT)} symlink points to "
+                f"'{os.readlink(path)}', expected '{expected_target}'"
+            )
 
 
 def check_forbidden_strings(errors: list[str]) -> None:
@@ -100,6 +125,7 @@ def check_plugin_config(errors: list[str]) -> None:
 def main() -> int:
     errors: list[str] = []
     check_required_files(errors)
+    check_symlinks(errors)
     check_wikilinks(errors)
     check_forbidden_strings(errors)
     check_plugin_config(errors)

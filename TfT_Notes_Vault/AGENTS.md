@@ -1,53 +1,44 @@
-# Agent Entry Point
+# Agent Rules
 
-This file is the canonical source for general agent conventions in this vault.
+This file is the canonical source for agent rules in this vault. `CLAUDE.md` symlinks here — if you are reading this as `CLAUDE.md`, you are in the right place.
 
-## Read Order
+## Completion Checklist
 
-If you are an AI agent working in this vault:
+You MUST complete these steps before finishing any task that modifies shared documentation, workflow, folder paths, naming conventions, or config. Do not skip these. Do not mark the task as done until both steps pass.
 
-1. Read this file first.
-2. Then read [[CLAUDE]] for fuller project context.
-3. If the task touches Zotero imports, note templates, or literature workflow setup, also read [[ai/zotero-import-template-guide]].
-4. For active literature-note work, inspect the relevant notes in [[Literature Review/README]] and [[ai/zotero-import-template-guide]].
+1. Update all affected shared docs: [[THESIS_CONTEXT]], notes in [[ai/README]], and relevant workflow notes in [[Literature Review/README]].
+2. Run `python3 ai/scripts/validate_ai_docs.py` and confirm it passes.
 
-## General Conventions
+## Rules
 
-- Accuracy and attribution matter. Do not fabricate claims or sources.
-- Keep the user in the thinker role. Avoid replacing their judgment with unsupported conclusions.
-- Respect the existing vault structure and naming conventions.
-- Use Obsidian wikilinks for internal vault references so links survive renames.
-- Prefer updating canonical notes over duplicating the same rules in multiple places.
+- Do NOT fabricate claims, sources, or citations. Accuracy and proper attribution are non-negotiable.
+- Keep the user in the thinker role. When in doubt, ask questions rather than producing conclusions. Do not replace the user's judgment with unsupported recommendations.
+- Respect the existing vault structure and naming conventions. If unsure, ask before reorganizing.
+- Use Obsidian wikilinks for all internal vault references.
+- Update canonical notes rather than duplicating content across files.
 
-## Shared Documentation Rule
+## Project Context
 
-If you change anything that should survive across chat contexts, update the relevant shared documentation before finishing.
+This vault is the research workspace for a bachelor thesis at KIT titled **"Strategies for Thoughtful Cognition."** It investigates how GenAI can be designed and used as a Tool for Thought (TfT) — protecting and augmenting human cognition rather than replacing it. The core concern is cognitive offloading: users deferring thinking to AI and unreflectively relying on its outputs.
 
-This includes:
+Deliverables: (1) Systematic Literature Review, (2) Strategy Taxonomy (Design Strategies vs. Usage Strategies), (3) Conceptual Framework (AI Role → Strategy → Cognitive Function), (4) Prototypical Validation (lives outside this vault).
 
-- workflow changes
-- folder or path changes
-- command or config changes
-- naming-convention changes
-- major project-phase/context changes
-- new reusable handoff notes in [[ai/README]]
+This vault covers deliverables 1–3: literature collection, strategy extraction, taxonomy and framework development, and thesis writing. The prototype is developed separately.
 
-Relevant files usually include:
+For the full project context, literature workflow details, and current reading orientation, read [[THESIS_CONTEXT]].
 
-- [[CLAUDE]]
-- notes in [[ai/README]]
-- the relevant workflow note in [[Literature Review/README]] or the relevant note in [[ai/README]]
+For Zotero import setup and template conventions:
 
-## Validation
+- [[ai/zotero-import-template-guide]]
 
-If you changed shared workflow, config, or AI documentation, the task is not done until you run:
+For active literature-review work:
 
-- `python3 ai/scripts/validate_ai_docs.py`
+- [[Literature Review/README]]
 
 ## Zotero Import Conventions
 
 - Main paper notes import into `Literature Review/imports/`.
 - Raw Zotero notes and their assets live in `Literature Review/zotero_notes/`.
-- Imported filenames should stay citekey-based.
+- Imported filenames MUST be citekey-based, not title-based.
 
-See [[ai/zotero-import-template-guide]] for the detailed Zotero setup.
+See [[ai/zotero-import-template-guide]] for the full setup.
