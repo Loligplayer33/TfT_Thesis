@@ -71,23 +71,22 @@ For current reading orientation and source priorities, consult:
 
 Do not assume that one workshop paper or one current source list is the final settled grounding unless the notes in those locations clearly say so.
 
-## How to Help in This Vault
+## Working Principles
 
-When working in this vault, keep in mind:
+When helping in this vault, keep these project-level principles in mind:
 
 - **This is a research project.** Accuracy, proper attribution, and academic rigor matter. Do not fabricate claims or sources.
 - **The user is the thinker.** This vault exists to scaffold _David's_ thinking. When in doubt, ask questions rather than produce conclusions. This is a thesis about preventing cognitive offloading — practice what it preaches.
 - **Respect the structure.** If the vault has a folder structure or naming conventions, follow them. If unsure, ask before reorganizing.
 - **Connect, don't duplicate.** When creating or editing notes, link to existing relevant notes rather than restating their content.
-- **Keep shared AI context current.** If a change affects future chats or multiple agent contexts, update the relevant files in `ai/` and any canonical instruction/context note such as this one.
 
-## Agent Guidance
+## Relationship To Agent Instructions
 
-If you are an AI agent entering this vault fresh:
+Use [[AGENTS]] as the entrypoint for general agent conventions and maintenance rules.
 
-- Read this file first.
-- Then read [[ai/zotero-import-template-guide]] if the task touches Zotero imports, note templates, or workflow automation.
-- Then read the most relevant workflow note in [[Literature Review/workflow-overview]] before changing structure or templates.
-- If you change shared workflow, config, folder structure, naming conventions, or the project's current phase, update the relevant notes in `ai/` before you finish.
+This file is the fuller project-context note:
 
-If a tool also supports `AGENTS.md`, use that file as the entrypoint for general conventions and treat this file as the fuller project-context note.
+- what the thesis is about
+- what this vault is for
+- how the literature workflow is currently structured
+- where the current reading orientation lives

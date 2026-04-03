@@ -32,7 +32,7 @@ General agent conventions live in [[AGENTS]]. This folder should focus on reusab
 
 After changing shared AI documentation, workflow docs, or Zotero import config, run:
 
-- `python3 scripts/validate_ai_docs.py`
+- `python3 "$(git rev-parse --show-toplevel)/scripts/validate_ai_docs.py"`
 
 ## Current Guides
 
