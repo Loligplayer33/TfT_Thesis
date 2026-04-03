@@ -9,7 +9,7 @@ If you are an AI agent working in this vault:
 1. Read this file first.
 2. Then read [[CLAUDE]] for fuller project context.
 3. If the task touches Zotero imports, note templates, or literature workflow setup, also read [[ai/zotero-import-template-guide]].
-4. For active literature-note work, inspect the relevant notes in [[Literature Review/README]] and [[Literature Review/workflow-overview]].
+4. For active literature-note work, inspect the relevant notes in [[Literature Review/README]] and [[workflow-overview]].
 
 ## General Conventions
 
@@ -36,13 +36,13 @@ Relevant files usually include:
 
 - [[CLAUDE]]
 - notes in [[ai/README]]
-- the relevant workflow note in [[Literature Review/README]] or [[Literature Review/workflow-overview]]
+- the relevant workflow note in [[Literature Review/README]] or [[workflow-overview]]
 
 ## Validation
 
 If you changed shared workflow, config, or AI documentation, the task is not done until you run:
 
-- `python3 "$(git rev-parse --show-toplevel)/scripts/validate_ai_docs.py"`
+- `python3 ai/scripts/validate_ai_docs.py`
 
 ## Zotero Import Conventions
 

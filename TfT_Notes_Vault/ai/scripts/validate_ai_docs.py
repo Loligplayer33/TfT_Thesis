@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 
-WORKSPACE_ROOT = Path(__file__).resolve().parents[1]
+WORKSPACE_ROOT = Path(__file__).resolve().parents[3]
 VAULT_ROOT = WORKSPACE_ROOT / "TfT_Notes_Vault"
 
 REQUIRED_FILES = [
@@ -118,4 +118,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

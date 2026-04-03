@@ -17,4 +17,4 @@ Important:
 - `TfT_Notes_Vault/CLAUDE.md` is project context, not the canonical rules file.
 - Shared workflow/context changes are not done until the relevant AI docs are updated.
 - When shared AI docs or workflow/config files change, run:
-  - `python3 "$(git rev-parse --show-toplevel)/scripts/validate_ai_docs.py"`
+  - `python3 TfT_Notes_Vault/ai/scripts/validate_ai_docs.py`

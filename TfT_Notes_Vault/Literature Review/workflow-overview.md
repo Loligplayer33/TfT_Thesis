@@ -40,8 +40,8 @@ The working commands are:
 
 They create notes from a Zotero item using:
 
-- template: [[Literature Review/templates/overview-paper-template]]
-- template: [[Literature Review/templates/zotero-notes-template]]
+- template: [[overview-paper-template]]
+- template: [[zotero-notes-template]]
 - main note folder: `Literature Review/imports`
 - Zotero note folder: `Literature Review/zotero_notes`
 - shared asset folder: `Literature Review/zotero_notes/{{citekey}}-zotero-notes-assets`
@@ -81,9 +81,9 @@ The plugin is not the place where thinking happens. After import, the analytical
 
 The current week-one workspace is:
 
-- [[Literature Review/week_01_overview/week-01-current-focus]]
-- [[Literature Review/week_01_overview/tankelevitchUnderstandingProtectingAugmenting2025]]
-- [[Literature Review/literature-review-reading-plan]]
+- [[week-01-current-focus]]
+- [[Literature Review/Overview Papers/tankelevitchUnderstandingProtectingAugmenting2025]]
+- [[literature-review-reading-plan]]
 
 The purpose of week one is:
 
@@ -103,6 +103,6 @@ The purpose of week one is:
 ## Related Notes
 
 - [[Literature Review/README]]
-- [[Literature Review/templates/overview-paper-template]]
-- [[Literature Review/templates/zotero-notes-template]]
-- [[Literature Review/week_01_overview/week-01-current-focus]]
+- [[overview-paper-template]]
+- [[zotero-notes-template]]
+- [[week-01-current-focus]]

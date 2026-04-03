@@ -141,5 +141,5 @@ If starting from a fresh chat, summarize the setup like this:
 
 ## Related Notes
 
-- [[Literature Review/workflow-overview]]
+- [[workflow-overview]]
 - [[Literature Review/README]]

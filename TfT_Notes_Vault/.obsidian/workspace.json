@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "AGENTS"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 825.5124969482422
+    "width": 255.5
   },
   "right": {
     "id": "7501569fb210c75f",
@@ -183,15 +183,17 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "ee0c506646b0e05a",
+  "active": "112d20c1942fee90",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "ai/README.md",
+    "ai/scripts/validate_ai_docs.py",
+    "ai/scripts",
     "AGENTS.md",
     "Home.md",
     "Literature Review/week_01_overview/tankelevitchUnderstandingProtectingAugmenting2025.md",
-    "CLAUDE.md",
     "Literature Review.md",
     "ai/zotero-import-template-guide.md",
-    "ai/README.md",
     "Thesis Overview.md",
     "Literature Review/literature-review-reading-plan.md",
     "Literature Review/templates/overview-paper-template.md",
@@ -217,9 +219,7 @@
     "ai",
     "tankelevitchUnderstandingProtectingAugmenting2025.md",
     "literature_review_workflow/imports/tankelevitchUnderstandingProtectingAugmenting2025-zotero-notes-assets/annotation-2-x43-y117.png",
-    "literature_review_workflow/imports/tankelevitchUnderstandingProtectingAugmenting2025-zotero-notes-assets",
     "literature_review_workflow/imports/tankelevitchUnderstandingProtectingAugmenting2025-assets/image-2-x43-y117.png",
-    "literature_review_workflow/imports/tankelevitchUnderstandingProtectingAugmenting2025-assets",
     "literature_review_workflow/templates/overview-paper-template.md",
     "literature_review_workflow/templates/zotero-notes-template.md",
     "literature_review_workflow/week_01_overview/week-01-current-focus.md",

@@ -17,9 +17,9 @@ status: draft
 
 ## This Week's Papers
 
-- [[tankelevitchUnderstandingProtectingAugmenting2025]]
-- [[zhangToolsThoughtUnderstanding2026]]
-- [[tankelevitchMetacognitiveDemandsOpportunities2024]]
+- [[Literature Review/Overview Papers/tankelevitchUnderstandingProtectingAugmenting2025]]
+- Zhang et al. 2026
+- Tankelevitch et al. 2024
 
 ## What I Want From These Papers
 
@@ -42,4 +42,4 @@ status: draft
 
 - [[Thesis Overview]]
 - [[literature-review-reading-plan]]
-- [[../README|Literature Review Workflow]]
+- [[Literature Review/README|Literature Review Workflow]]

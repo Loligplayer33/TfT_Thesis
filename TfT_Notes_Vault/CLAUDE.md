@@ -35,7 +35,7 @@ This vault is **not** the prototype codebase. The prototype is developed separat
 The current literature-review workflow in this vault is centered in:
 
 - [[Literature Review/README]]
-- [[Literature Review/workflow-overview]]
+- [[workflow-overview]]
 - [[ai/zotero-import-template-guide]]
 
 ### Import Logic

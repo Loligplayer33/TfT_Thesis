@@ -13,7 +13,7 @@ status: draft
 - Citekey: `tankelevitchUnderstandingProtectingAugmenting2025`
 - [Open in Zotero](zotero://select/library/items/GNCG4L23)
 - [Source URL](http://arxiv.org/abs/2508.21036)
-- [[Literature Review/zotero_notes/tankelevitchUnderstandingProtectingAugmenting2025-zotero-notes|Open imported Zotero notes]]
+- [[tankelevitchUnderstandingProtectingAugmenting2025-zotero-notes|Open imported Zotero notes]]
 
 ## What This Paper Helps Me See
 

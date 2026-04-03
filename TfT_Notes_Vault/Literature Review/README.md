@@ -81,5 +81,5 @@ These are important working sources, but they should be treated as a provisional
 
 ## Start Here
 
-- Use [[Literature Review/templates/overview-paper-template]]
-- Use [[Literature Review/week_01_overview/week-01-current-focus]]
+- Use [[overview-paper-template]]
+- Use [[week-01-current-focus]]

@@ -32,7 +32,7 @@ This is a the start of the motivation. I states the context and the main idea of
 
 I really wanted to add some text here
 
-> ![[Literature Review/zotero_notes/tankelevitchUnderstandingProtectingAugmenting2025-zotero-notes-assets/annotation-2-x43-y117.png]]
+> ![[annotation-2-x43-y117.png]]
 
 Critical thinking is a major part of evolving one's cognitive abilities
 
