@@ -10,6 +10,20 @@ Find, organize, and demonstrate design and usage strategies that prevent cogniti
 
 ---
 
+## Current Entry Point: Overview First
+
+Before you start the full literature review, begin with a short overview pass:
+
+1. **Tankelevitch et al. (2025) synthesis** — best broad map of the Tools for Thought field
+2. **Zhang et al. (2026) workshop paper** — best framing for your thesis structure
+3. **Tankelevitch et al. (2024) metacognitive demands** — best theory-oriented explanation of the cognitive problem
+
+This gives you the field map, the thesis framing, and the underlying metacognitive lens in one sequence.
+
+For the fuller reading map and concise source list, see [[Literature Review/Overview Synthesis and Reading Map]].
+
+---
+
 ## The Four Deliverables
 
 Your thesis has four required outputs. They build on each other sequentially.
@@ -35,7 +49,9 @@ Your thesis has four required outputs. They build on each other sequentially.
 - Kazemitabaar et al. (2025) — cognitive engagement techniques in programming education
 - Ashktorab et al. (2025) — user resistance to cognitive forcing functions
 
-**Status:** Not started. This is your next major work item.
+**Current orientation:** Start with the overview cluster first, then move into problem papers, design-principle papers, and theory anchors. The detailed source map now lives in [[Literature Review/Overview Synthesis and Reading Map]].
+
+**Status:** Overview-first map now defined. Deep reading, note extraction, and synthesis work still ahead.
 
 ---
 
@@ -113,7 +129,7 @@ The thesis _leads_ with the framework (deliverables 1–3) and presents the prot
 
 | Work item                                        | Deliverable it feeds | Priority                                                 |
 | ------------------------------------------------ | -------------------- | -------------------------------------------------------- |
-| Literature review                                | 1                    | **Next** — everything else depends on this               |
+| Literature review                                | 1                    | **Next** — overview pass defined, but the actual reading and extraction still drive everything else |
 | Strategy taxonomy                                | 2                    | After literature review                                  |
 | Explicit conceptual framework                    | 3                    | After taxonomy; partially prefigured in architecture doc |
 | Skill definition schema (YAML + markdown format) | 4                    | Needed before coding                                     |
@@ -137,6 +153,8 @@ The thesis _leads_ with the framework (deliverables 1–3) and presents the prot
 ---
 
 ## The Research Grounding (Key Sources)
+
+For the current concise source map and reading order, use [[Literature Review/Overview Synthesis and Reading Map]]. The table below is the shorter thesis-level grounding view.
 
 | Source                           | What it contributes                                 | Relevant to                 |
 | -------------------------------- | --------------------------------------------------- | --------------------------- |

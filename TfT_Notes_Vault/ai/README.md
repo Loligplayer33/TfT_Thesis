@@ -28,3 +28,9 @@ If you are adding a new reusable handoff note, add it to this folder and list it
 ## Current Guides
 
 - [[ai/zotero-import-template-guide]]
+
+## Current Cross-Vault Anchors
+
+- [[THESIS_CONTEXT]]
+- [[Thesis Overview]]
+- [[Literature Review/Overview Synthesis and Reading Map]]

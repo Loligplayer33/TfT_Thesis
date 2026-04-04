@@ -66,7 +66,7 @@ The detailed literature framing for this thesis should be treated as **provision
 For current reading orientation and source priorities, consult:
 
 - [[Thesis Overview]]
+- [[Literature Review/Overview Synthesis and Reading Map]]
 - [[Literature Review/README]]
 
 Do not assume that one workshop paper or one current source list is the final settled grounding unless the notes in those locations clearly say so.
-

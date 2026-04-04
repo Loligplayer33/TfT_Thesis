@@ -45,6 +45,10 @@ Overview-paper imports share the Zotero-notes asset folder so the plugin does no
 
 This section is a **working reading orientation**, not a final settled literature position.
 
+The canonical overview note for the current source map is:
+
+- [[Literature Review/Overview Synthesis and Reading Map]]
+
 ### Current Framing Anchor
 
 One important current framing paper is:
@@ -63,22 +67,22 @@ Useful current concepts associated with this line of work:
 
 These are important working sources, but they should be treated as a provisional reading map rather than a final canon:
 
-| Source | Contribution |
-| --- | --- |
-| Zhang et al. CHI 2026 | Primary framing paper for current TfT direction |
-| Tankelevitch et al. 2025 (CHI 2025 workshop synthesis) | Broad landscape of concrete TfT designs |
-| Zhang & Reicherts 2025 | Process-oriented support and forward reasoning |
-| Sarkar 2024 ("AI Should Challenge, Not Obey") | The Provocateur role |
-| Rogers et al. 2025 | Intermediary, cognitive, and task outcomes |
-| Bjork — Desirable Difficulties | Learning through strategic difficulty |
-| Kapur — Productive Failure | Struggle before instruction |
-| Vygotsky — Scaffolding / ZPD | Temporary support structures |
-| Kreijkes et al. 2025 | Perception-performance paradox |
-| Lehmann et al. 2024 | Explanation-seeking vs. solution-seeking |
-| Fan et al. 2025 | Metacognitive laziness |
-| Ashktorab et al. 2025 | Resistance to cognitive forcing functions |
-| Kazemitabaar et al. 2025 | Cognitive engagement techniques |
-| Lira et al. 2025 | Cases where AI can support skill development |
+| Source                                                 | Contribution                                    |
+| ------------------------------------------------------ | ----------------------------------------------- |
+| Zhang et al. CHI 2026                                  | Primary framing paper for current TfT direction |
+| Tankelevitch et al. 2025 (CHI 2025 workshop synthesis) | Broad landscape of concrete TfT designs         |
+| Zhang & Reicherts 2025                                 | Process-oriented support and forward reasoning  |
+| Sarkar 2024 ("AI Should Challenge, Not Obey")          | The Provocateur role                            |
+| Rogers et al. 2025                                     | Intermediary, cognitive, and task outcomes      |
+| Bjork — Desirable Difficulties                         | Learning through strategic difficulty           |
+| Kapur — Productive Failure                             | Struggle before instruction                     |
+| Vygotsky — Scaffolding / ZPD                           | Temporary support structures                    |
+| Kreijkes et al. 2025                                   | Perception-performance paradox                  |
+| Lehmann et al. 2024                                    | Explanation-seeking vs. solution-seeking        |
+| Fan et al. 2025                                        | Metacognitive laziness                          |
+| Ashktorab et al. 2025                                  | Resistance to cognitive forcing functions       |
+| Kazemitabaar et al. 2025                               | Cognitive engagement techniques                 |
+| Lira et al. 2025                                       | Cases where AI can support skill development    |
 
 ## Reading Sequence
 
@@ -88,10 +92,19 @@ The literature review should answer one guiding question:
 
 To answer that, read in this sequence:
 
+0. Start with the overview pass in [[Literature Review/Overview Synthesis and Reading Map]].
 1. Understand the problem.
 2. Understand the theoretical foundations.
 3. Map the current strategy landscape.
 4. Deepen the core learning-science anchors from the thesis spec.
+
+### Stage 0: Overview First
+
+Goal: get the field map, thesis framing, and metacognitive problem lens before deep reading.
+
+- Priority: Tankelevitch et al. (2025) workshop synthesis
+- Priority: Zhang et al. (2026) workshop framing paper
+- Priority: Tankelevitch et al. (2024)
 
 ### Phase 1: Understand The Problem
 
@@ -158,5 +171,6 @@ When you read, capture these points in the overview note:
 
 ## Start Here
 
+- Use [[Literature Review/Overview Synthesis and Reading Map]]
 - Use [[Literature Review/templates/overview-paper-template]]
 - Use [[Literature Review/Overview Papers/week-01-current-focus]]
