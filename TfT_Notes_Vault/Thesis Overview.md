@@ -12,21 +12,21 @@ Find, organize, and demonstrate design and usage strategies that prevent cogniti
 
 ## Current Entry Point: Overview First
 
-Before you start the full literature review, begin with a short overview pass:
+The overview pass through the three framing papers is substantially complete (all three have Zotero notes, with some synthesis work already started on Tankelevitch 2025):
 
 1. **Tankelevitch et al. (2025) synthesis** — best broad map of the Tools for Thought field
-2. **Zhang et al. (2026) workshop paper** — best framing for your thesis structure
+2. **Zhang et al. (2026) workshop paper** — best framing for the thesis structure
 3. **Tankelevitch et al. (2024) metacognitive demands** — best theory-oriented explanation of the cognitive problem
 
-This gives you the field map, the thesis framing, and the underlying metacognitive lens in one sequence.
+The fuller reading map, phased reading plan, and concise source list live in [[Literature Review/Overview Synthesis and Reading Map]].
 
-For the fuller reading map and concise source list, see [[Literature Review/Overview Synthesis and Reading Map]].
+Current active reading layer is in [[Literature Review/Synthesis/README|Literature Review/Synthesis]] — six thematic synthesis notes where cross-paper argument develops.
 
 ---
 
 ## The Four Deliverables
 
-Your thesis has four required outputs. They build on each other sequentially.
+The thesis has four required outputs. They build on each other sequentially.
 
 ### 1. Systematic Literature Review
 
@@ -40,35 +40,35 @@ Your thesis has four required outputs. They build on each other sequentially.
 - Scaffolding (Vygotsky / ZPD) — temporary support structures that are removed as competence grows
 - Productive Failure (Kapur) — letting learners struggle before instruction leads to deeper understanding
 
-**Additional sources to engage:**
+**Canonical source map:** [[Literature Review/Overview Synthesis and Reading Map]]
 
-- Zhang et al. CHI 2026 workshop paper (your primary framing paper)
-- Source [20] — the CHI 2025 workshop synthesis (34 submissions with concrete TfT designs)
-- Source [24] — Zhang & Reicherts on process-oriented support and forward-reasoning
-- Sarkar (2024) — "AI Should Challenge, Not Obey" (the Provocateur role)
-- Kazemitabaar et al. (2025) — cognitive engagement techniques in programming education
-- Ashktorab et al. (2025) — user resistance to cognitive forcing functions
+**Synthesis infrastructure in place:**
 
-**Current orientation:** Start with the overview cluster first, then move into problem papers, design-principle papers, and theory anchors. The detailed source map now lives in [[Literature Review/Overview Synthesis and Reading Map]].
+- Six thematic notes in [[Literature Review/Synthesis/README|Literature Review/Synthesis]] — cross-paper argument develops here
+- Paper-level records in `Literature Review/zotero_notes/` — reading record and in-situ reactions
+- Thin paper headers in `Literature Review/Overview Papers/` and `Literature Review/imports/`
+- [[Literature Review/Sources by Domain]] — tracking for sources referenced across papers
+- [[Glossary]] — stable definitions
 
-**Status:** Overview-first map now defined. Deep reading, note extraction, and synthesis work still ahead.
+**Status:** Overview pass substantially complete. Active synthesis work underway on Tankelevitch 2025. Stage 1 (problem mechanism papers — Colombatto, Lee, Fan, Kreijkes, Bastani) is the next priority.
 
 ---
 
 ### 2. Strategy Taxonomy
 
-**What it is:** Organize everything from the literature review into a structured classification.
+**What it is:** Organize findings from the literature review into a structured classification.
 
-**Primary axis (from the workshop paper Section 1.1):**
+**Primary axis (from the CHI 2026 workshop paper, Zhang et al.):**
 
-- **Design Strategies** — how the system is built (e.g., withhold answers, inject questions, surface contradictions)
-- **Usage Strategies** — how the user interacts (e.g., using AI for explanation-seeking rather than solution-seeking, inspecting/modifying skill definitions)
+- **Design Strategies** — how the system is built (e.g., withhold answers, inject questions, surface contradictions, process-oriented support)
+- **Usage Strategies** — how the user interacts (e.g., explanation-seeking vs. solution-seeking, mode selection, producing independent intermediate artifacts)
 
 **Possible sub-axes to discover during the review:**
 
-- Mechanism type: withholding, restructuring, prompting, provoking, scaffolding
-- Timing: proactive vs. reactive, continuous vs. checkpoint-based
-- Cognitive function targeted: critical thinking, metacognition, sensemaking, etc.
+- Mechanism type: withholding, restructuring, prompting, provoking, scaffolding, feedforward
+- Intervention timing: on-demand, sequential, dynamic (cross-cutting dimension)
+- Directness: direct challenge, formal structure, representational transformation, motivational pathways
+- Cognitive function targeted: critical thinking, metacognition, sensemaking, creativity, learning
 
 **Status:** Not started. Depends on the literature review.
 
@@ -80,15 +80,13 @@ Your thesis has four required outputs. They build on each other sequentially.
 
 **The core structure:**
 
-- **AI Roles** (the stance): Socratic Tutor, Provocateur, Facilitator, Reflective Prompter, etc.
-- **Strategies** (the concrete behaviors that realize each role): question-based scaffolding, deliberate counterargument, withholding, structured decomposition, etc.
+- **AI Roles** (the stance): Socratic Tutor, Provocateur, Facilitator, Ignorant Co-Learner, Coach, etc.
+- **Strategies** (the concrete behaviors that realize each role): question-based scaffolding, deliberate counterargument, withholding, structured decomposition, feedforward, etc.
 - **Cognitive Functions** (what gets activated): critical thinking, metacognition, sensemaking, reflection, etc.
 
 **Key insight:** The mapping is many-to-many. One strategy can serve multiple roles. One role can employ multiple strategies. The framework maps out which combinations work, when, and why.
 
-**How this connects to the prototype:** Your skill definition schema _is_ this framework made concrete. Each skill file encodes a role, its strategies, and the cognitive function it targets.
-
-**Status:** Partially implicit in the architecture document. Needs to be made explicit as a standalone theoretical contribution.
+**Status:** Not started as an explicit artifact. AI Roles synthesis note ([[Literature Review/Synthesis/AI Roles]]) will be the staging ground once enough papers have been read.
 
 ---
 
@@ -96,16 +94,16 @@ Your thesis has four required outputs. They build on each other sequentially.
 
 **What it is:** A working system that demonstrates how a specific strategy shifts the user from passive consumer to active thinker.
 
-**What you're building:** An Obsidian-based TfT system where:
+**Scope clarification:** The thesis contribution is the framework (deliverables 1–3). The prototype is evidence, not the main event. The goal is a working slice — one strategy realized through one role, tested against one cognitive function — not a full system.
 
-- Skills (markdown files) define AI roles and their strategies
-- An orchestration layer enforces cognitive checkpoints
-- The AI interacts through sidebar chat, inline callouts, and canvas cards
-- Intermediary artifacts (notes, questions, counterarguments) are created in the vault
+**Form not yet committed.** An Obsidian-based architecture was explored in depth as one possibility and is documented outside this vault, but the prototype form should follow from the framework rather than the other way around. A note augmentation use case (post-lecture section-by-section review) has been explored as a potential direction, with key design decisions identified but left open.
 
-**Scope clarification:** You're building the _full architecture_ that can express any role-strategy-cognition chain from the framework. But you only implement and validate one or two concrete skills. The architecture argues generalizability; the skills prove it works for at least one case.
+**Open prototype questions:**
+- Single-lecture vs. cumulative cross-lecture context scope
+- Primary interaction modality (chat sidebar, inline callouts, canvas cards, etc.)
+- Real-time monitoring as a potential deferred extension
 
-**Status:** Architecture designed (v2 document complete). No code written yet.
+**Status:** No code written. No prototype form committed. Decision deferred until framework has enough shape to point at a specific strategy to prototype.
 
 ---
 
@@ -113,12 +111,8 @@ Your thesis has four required outputs. They build on each other sequentially.
 
 ```
 Literature Review ──→ Strategy Taxonomy ──→ Conceptual Framework ──→ Prototype
-  (find patterns)      (organize them)      (map role→strategy→     (make it real,
-                                             cognitive function)      test one slice)
-                                                    │
-                                                    ▼
-                                            Skill Definition Schema
-                                            (framework as code)
+  (find patterns)      (organize them)      (map role→strategy→     (demonstrate
+                                             cognitive function)      one slice)
 ```
 
 The thesis _leads_ with the framework (deliverables 1–3) and presents the prototype (deliverable 4) as evidence. Not the other way around.
@@ -127,47 +121,61 @@ The thesis _leads_ with the framework (deliverables 1–3) and presents the prot
 
 ## What's Not Done
 
-| Work item                                        | Deliverable it feeds | Priority                                                 |
-| ------------------------------------------------ | -------------------- | -------------------------------------------------------- |
-| Literature review                                | 1                    | **Next** — overview pass defined, but the actual reading and extraction still drive everything else |
-| Strategy taxonomy                                | 2                    | After literature review                                  |
-| Explicit conceptual framework                    | 3                    | After taxonomy; partially prefigured in architecture doc |
-| Skill definition schema (YAML + markdown format) | 4                    | Needed before coding                                     |
-| First skill implementation                       | 4                    | Likely Socratic Questioner or Devil's Advocate           |
-| Obsidian plugin architecture                     | 4                    | How plugin connects to backend                           |
-| MCP server tool signatures                       | 4                    | Exact vault operation interfaces                         |
-| Any code                                         | 4                    | Nothing written yet                                      |
+| Work item                                             | Deliverable it feeds | Priority                                                                                             |
+| ----------------------------------------------------- | -------------------- | ---------------------------------------------------------------------------------------------------- |
+| Stage 1 reading (problem mechanism papers)            | 1                    | **Next** — Colombatto, Lee, Fan, Kreijkes, Bastani                                                   |
+| Stage 2 reading (design principles)                   | 1                    | After Stage 1 — Zhang & Reicherts, Lehmann, Lira, Kazemitabaar, Ashktorab, Singh, Sarkar             |
+| Stage 3 reading (strategy landscape, adoption)        | 1                    | After Stage 2 — Zheng, Terzimehić, Rogers                                                            |
+| Stage 4 reading (theoretical anchors)                 | 1                    | After Stage 3 — Bjork, Kapur, Vygotsky / Wood, Bruner & Ross                                         |
+| Strategy taxonomy (as explicit artifact)              | 2                    | After sufficient literature; the Synthesis notes accumulate the raw material                         |
+| Explicit conceptual framework                         | 3                    | After taxonomy                                                                                       |
+| Prototype form decision                               | 4                    | After framework has enough shape to point at a specific strategy                                     |
+| Any prototype code                                    | 4                    | Nothing written yet                                                                                  |
 
 ---
 
 ## Key Tensions to Keep in Mind
 
-**Engineering ambition vs. thesis scope.** Your architecture document describes five skills, four interaction patterns, canvas manipulation, vector retrieval, and artifact lifecycle. The thesis needs one skill working well across one or two patterns. Don't let building outrun writing.
+**Engineering ambition vs. thesis scope.** Earlier prototype exploration described multiple skills, interaction patterns, and architecture detail. The thesis needs one working slice. Keep prototype work scoped to evidence, not system-building.
 
-**Framework vs. prototype in the thesis narrative.** The thesis contribution is the framework (deliverables 1–3). The prototype is evidence, not the main event. Risk: writing a thesis that reads like engineering docs rather than a research contribution.
+**Framework vs. prototype in the thesis narrative.** The contribution is the framework (deliverables 1–3). The prototype is evidence. Risk: writing a thesis that reads like engineering docs rather than a research contribution.
 
-**Design strategies vs. usage strategies.** Your prototype is heavily weighted toward design strategies (how the system is built). The thesis also asks about usage strategies (how users interact). The editable skill files and user ability to dismiss/modify scaffolding are usage strategies — make that connection explicit.
+**Design strategies vs. usage strategies.** The literature is noticeably thicker on design strategies than on usage strategies. That asymmetry is itself worth naming in the thesis. Watch for usage strategies as you read — they're often implicit in design discussions.
 
-**Productive friction vs. adoption.** Your cognitive checkpoints are friction by design. The literature (Ashktorab et al.) shows users resist this. Your architecture acknowledges it (dismissable checkpoints, frequency adaptation) but it remains the biggest open question: will users actually engage?
+**Productive friction vs. adoption.** Cognitively protective strategies add friction, and users resist friction (Ashktorab et al.). This is the central adoption tension and a recurring theme in [[Literature Review/Synthesis/Adoption and Friction]]. It cannot be treated as a limitations footnote.
+
+**Cognition protection vs. cognitive entanglement.** The metacognitive framework (Tankelevitch et al. 2024) assumes the object-level cognition being monitored is the user's own. Under sustained GenAI use this weakens — see [[Literature Review/Bucket/The Metacognitive Framework and the User-AI Cognitive Entanglement Problem]]. This raises the stakes of the problem and shapes design requirements around cognitive traceability.
 
 ---
 
 ## The Research Grounding (Key Sources)
 
-For the current concise source map and reading order, use [[Literature Review/Overview Synthesis and Reading Map]]. The table below is the shorter thesis-level grounding view.
+The current detailed source map and reading order is [[Literature Review/Overview Synthesis and Reading Map]]. The table below is the shorter thesis-level grounding view.
 
-| Source                           | What it contributes                                 | Relevant to                 |
-| -------------------------------- | --------------------------------------------------- | --------------------------- |
-| Zhang et al. CHI 2026            | Primary framing: TfT strategies, outcomes, adoption | Everything                  |
-| Source [20] — CHI 2025 synthesis | 34 concrete TfT design examples                     | Literature review, taxonomy |
-| Source [24] — Zhang & Reicherts  | Process-oriented support, forward-reasoning         | Core design principle       |
-| Sarkar (2024)                    | AI as Provocateur, "AI Should Challenge Not Obey"   | AI roles in framework       |
-| Rogers et al. (2025)             | Three outcome types: intermediary, cognitive, task  | Artifact design, evaluation |
-| Bjork — Desirable Difficulties   | Making tasks harder improves learning               | Strategy taxonomy           |
-| Kapur — Productive Failure       | Struggle before instruction deepens understanding   | Strategy taxonomy           |
-| Vygotsky — Scaffolding / ZPD     | Temporary support structures                        | Strategy taxonomy           |
-| Kreijkes et al. (2025)           | Perception-performance paradox                      | Why TfT design is hard      |
-| Lehmann et al. (2024)            | Solution-seeking harms, explanation-seeking helps   | Forward-reasoning principle |
-| Fan et al. (2025)                | Metacognitive laziness                              | Mechanism of cognitive harm |
-| Ashktorab et al. (2025)          | User resistance to cognitive forcing functions      | Adoption tension            |
-| Kazemitabaar et al. (2025)       | Cognitive engagement techniques in programming      | Design strategies           |
+| Source                                           | What it contributes                                 | Relevant to                 |
+| ------------------------------------------------ | --------------------------------------------------- | --------------------------- |
+| Zhang et al. CHI 2026                            | Primary framing: TfT strategies, outcomes, adoption | Everything                  |
+| Tankelevitch et al. 2025 (CHI 2025 synthesis)    | 34 concrete TfT design examples; field landscape    | Literature review, taxonomy |
+| Tankelevitch et al. 2024 (metacognitive demands) | Core mechanism account for why cognitive risk arises | Problem, Theory             |
+| Zhang & Reicherts 2025                           | Process-oriented support, forward-reasoning         | Core design principle       |
+| Sarkar 2024 (AI Should Challenge, Not Obey)      | AI as Provocateur                                   | AI roles in framework       |
+| Rogers et al. 2025                               | Three outcome types: intermediary, cognitive, task  | Artifact design, evaluation |
+| Bjork — Desirable Difficulties                   | Making tasks harder improves learning               | Strategy taxonomy, theory   |
+| Kapur — Productive Failure                       | Struggle before instruction deepens understanding   | Strategy taxonomy, theory   |
+| Vygotsky / Wood, Bruner & Ross — Scaffolding     | Temporary support structures                        | Strategy taxonomy, theory   |
+| Kreijkes et al. 2025                             | Perception-performance paradox                      | Why TfT design is hard      |
+| Lehmann et al. 2024                              | Solution-seeking harms, explanation-seeking helps   | Forward-reasoning, usage    |
+| Fan et al. 2025                                  | Metacognitive laziness                              | Mechanism of cognitive harm |
+| Ashktorab et al. 2025                            | User resistance to cognitive forcing functions      | Adoption tension            |
+| Kazemitabaar et al. 2025                         | Cognitive engagement techniques in programming      | Design strategies           |
+| Colombatto, Rintel & Tankelevitch 2025           | Confidence dynamics in advice-taking                | Problem mechanism           |
+
+---
+
+## Related
+
+- [[Literature Review/Overview Synthesis and Reading Map]]
+- [[Literature Review/README]]
+- [[Literature Review/Synthesis/README|Literature Review/Synthesis]]
+- [[THESIS_CONTEXT]]
+- [[Glossary]]

@@ -15,38 +15,15 @@ status: draft
 - [Source URL]({{url}})
 - [[Literature Review/zotero_notes/{{citekey}}-zotero-notes|Open imported Zotero notes]]
 
-## What This Paper Helps Me See
+---
 
-- 
+<!--
+This is a thin paper header — intentionally short.
 
-## Key Concepts
+Paper-level thinking (highlights, reactions, in-situ arguments) lives in the companion
+Zotero note, not here. Cross-paper synthesis lives in Literature Review/Synthesis/.
 
-- 
-- 
-
-## Useful Distinctions or Categories
-
-- 
-- 
-
-## Important Tensions
-
-- 
-- 
-
-## What Seems Most Relevant For My Thesis
-
-- 
-
-## What This Changes In My Thinking
-
-- 
-
-## What To Follow Up On
-
-- 
-- 
-
-## One-Sentence Takeaway
-
-- 
+Only add content below if you need a paper-level orientation that does not fit
+cleanly in either of those places — for example a one-sentence takeaway you want
+visible without opening the Zotero note.
+-->

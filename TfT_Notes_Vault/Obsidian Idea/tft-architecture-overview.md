@@ -283,7 +283,7 @@ The plugin inserts Obsidian callout blocks directly into the note the user is ed
 
 ```
 > [!question] Challenge
-> You argue X, but [[source-doc]] suggests Y. 
+> You argue X, but `[[source-doc]]` suggests Y. 
 > How do you reconcile this?
 ```
 

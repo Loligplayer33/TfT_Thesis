@@ -33,4 +33,7 @@ If you are adding a new reusable handoff note, add it to this folder and list it
 
 - [[THESIS_CONTEXT]]
 - [[Thesis Overview]]
+- [[Literature Review/README]]
 - [[Literature Review/Overview Synthesis and Reading Map]]
+- [[Literature Review/Synthesis/README|Synthesis]]
+- [[Glossary]]

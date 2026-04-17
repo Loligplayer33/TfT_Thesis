@@ -719,7 +719,7 @@ Plugin inserts Obsidian callout blocks directly into the user's note:
 
 ```markdown
 > [!question] Challenge from AI
-> You claim X, but [[source-doc]] suggests Y.
+> You claim X, but `[[source-doc]]` suggests Y.
 > How do you reconcile this?
 ```
 

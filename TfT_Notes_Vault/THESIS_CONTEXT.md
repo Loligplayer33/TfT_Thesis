@@ -16,8 +16,7 @@ The thesis aims to counter this by identifying, systematizing, and demonstrating
 
 3. **Conceptual Framework** — Map AI roles (e.g., Socratic Tutor, Provocateur, Facilitator) to the cognitive functions they augment (critical thinking, metacognition, sensemaking), with strategies as the concrete mechanisms connecting them. Structure: Role → Strategy → Cognitive Function.
 
-4. **Prototypical Validation** — A proof-of-concept demonstrating how a specific strategy shifts the user from passive consumer to active thinker. (The architecture for this lives outside this vault.)
-
+4. **Prototypical Validation** — A proof-of-concept demonstrating how a specific strategy shifts the user from passive consumer to active thinker. Form not yet committed — exploration happens outside this vault.
 
 ## What This Vault Is For
 
@@ -28,7 +27,7 @@ This vault is the **research and thinking workspace** for deliverables 1–3. It
 - The taxonomy and conceptual framework are developed iteratively
 - Thesis writing happens
 
-This vault is **not** the prototype codebase. The prototype is developed separately.
+This vault is **not** the prototype codebase. Any prototype work happens separately.
 
 ## Current Literature Workflow
 
@@ -36,6 +35,8 @@ The current literature-review workflow in this vault is centered in:
 
 - [[Literature Review/README]]
 - [[ai/zotero-import-template-guide]]
+
+The workflow spans three layers: Zotero (reading record), per-paper thin headers in Obsidian, and thematic synthesis notes in the [[Literature Review/Synthesis/README|Synthesis folder]] where arguments develop across papers.
 
 ### Import Logic
 
