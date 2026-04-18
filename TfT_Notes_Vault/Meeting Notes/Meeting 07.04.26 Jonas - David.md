@@ -1,20 +1,18 @@
 ### Research Question:
 
-How can a GenAI enabled, domain agnostic system be designed, such that it augments the user's cognition, sparks active reasoning and critical thinking?
-
-Or broader:
 How can a GenAI enabled, domain agnostic system be designed, such that it augments the user's cognition through the deliberate activation of higher order cognitive functions?
 
 ### What my task is:
 
-Generally speaking my Thesis consists of four sequential steps that lead to a working prototypical application showcasing how usage and design strategies can be implemented to nudge the user from seeing an LLM-enabled tool as a way to offload work in a solely outcome-focused sense, towards one that enables the user to have a tool that augments the user's cognition (AND automates operationally tedious tasks).
+Generally speaking my Thesis consists of four sequential steps that lead to a working prototypical application showcasing how usage and design strategies can be implemented to nudge the user from seeing an LLM-enabled tool as a way to offload work in a solely outcome-focused sense, towards one that enables the user to have a tool that augments the user's cognition and find the pareto-optimal balance between adoption and friction.
 
 The Framework and the application implementing this framework should be horizontally scalable (allow more design and usage strategies to be included later on by solely extending the framework and application) and maybe even designed in a way, such that it is use-case and/or domain agnostic°. (best case)
 
 
 °*This could either mean*
 - that the framework and the application itself are abstracted from specific domains and use cases (f.e. ChatGPT can be used in many in domains and many different use-cases)
-- the supported use-case itself is domain agnostic (f.e. synthesis creation based on given sources is domain agnostic - needed in many different domains)
+- **the supported use-case itself is domain agnostic (f.e. synthesis creation based on given sources is domain agnostic - needed in many different domains)**
+	**-> This seems to be the sweet spot for the prototype and maybe also for the whole thesis**
 - the system is use-case agnostic within a give domain (f.e. a coding agent that can help with many different use-cases that are coding related)
 
 ### To achieve this I need to 
@@ -34,8 +32,8 @@ The Framework and the application implementing this framework should be horizont
 ### Examples and Definitions
 
 - Design Patterns: ?
-- Design Strategies: Define how the system is intentionally structured to achieve a specific cognitive outcome (? forward thinking?) (System Design Side)
-- Usage Strategies: Define strategies for workflows or activities, that the user employs to augment their thinking (?and support forward thinking?)
+- Design Strategies: Define how the system is intentionally structured to achieve a specific cognitive outcome (System Design Side)
+- Usage Strategies: Define strategies for workflows or activities, that the user employs to augment their thinking
 	- OR: Describes the behaviors, mental models and interactive choices the human employs when engaging with a system
   (User Workflow Design Side)
 - Higher Order Cognitive Function: Complex, conscious mental activities that govern goal-directed behaviour, abstract thinking and adaptability (reasoning, critical thinking, sensemaking, metacognition, cognitive flexibility, single loop/double loop learning, cognitive reflection, situational awareness theorie)

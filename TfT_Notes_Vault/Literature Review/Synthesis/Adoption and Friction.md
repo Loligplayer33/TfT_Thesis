@@ -14,13 +14,19 @@ This note works through the cross-cutting tension between cognitive protection a
 
 It is extremely important that tools stay useful and provide good user experience. If the tool doesn't get used, it doesn't matter how well it protects or augments cognition.
 
+_Do strategies exist that improve cognitive protection without proportionally degrading usability? Or is the trade-off structural?_ Ashktorab and Kazemitabaar are the two papers most likely to give me traction on that question
+
 ### Synthesized Position
 
 *To be developed as more papers accumulate.*
 ## Paper Contributions
 
 ### [[Literature Review/Overview Papers/tankelevitchUnderstandingProtectingAugmenting2025|tankelevitchUnderstandingProtectingAugmenting2025]]
-- Formulates the major tradeoff between usefulness and efficiency benefitrs(regarding the output creation) and protection/augmentation of the user's cognition. Cheung argues that all types of provocations have to be linked to pedagogical goals to gain user acceptance. 
+- Formulates the major tradeoff between usefulness and efficiency benefits(regarding the output creation) and protection/augmentation of the user's cognition. Cheung argues that all types of provocations have to be linked to pedagogical goals to gain user acceptance. 
+
+### [[zhang2026tools]]
+- Follows the same arc describing the tradeoff between productivity gain and friction introducing usage- and design strategies. 
+
 
 
 ### To integrate once read

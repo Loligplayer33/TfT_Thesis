@@ -37,6 +37,8 @@ Cognitive processes in focus include critical thinking, learning, and creativity
 - There seems to be a general shift away from a direct interaction with the material towards a more mediated one with an omnipresent, (opinionated and biased) middleman. [Page 3](zotero://open-pdf/library/items/67D5M9ET?page=3&annotation=MC6LW4I3)
  - Workflows, not tasks, are the minimum unit of analysis. Task-level analysis misses cognitive damage from GenAI because higher-order cognitive functions triggered during one task can be prerequisites for downstream tasks. The paper's example: GenAI introduced too early in ideation can stifle creativity by fixating attention on specific ideas, even when it appears to help the current task. [Page 3](zotero://open-pdf/library/items/67D5M9ET?page=3&annotation=9JLE9ZBY)
  
+ ### [[zhang2026tools]]
+- Explicitly states that learning with the help of GenAI tools is a double-sided sword directly referencing kreijkes et al for the perception-performance paradox.[Page 2](zotero://open-pdf/library/items/MQYNRQBP?page=2&annotation=XLDP7AS9)
 
 ### To integrate once read
 test

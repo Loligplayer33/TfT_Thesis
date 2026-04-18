@@ -28,9 +28,9 @@ Reading is structured across three layers:
 
 - **Zotero notes** (`Literature Review/zotero_notes/`) — full reading record, highlights, in-situ reactions. Cite with page-specific links here.
 - **Paper headers** (`Literature Review/Overview Papers/` and `Literature Review/imports/`) — thin orientation notes per paper. Title, citekey, Zotero metadata, link back to the Zotero note.
-- **Synthesis notes** ([[Literature Review/Synthesis/README|Literature Review/Synthesis]]) — six thematic notes where cross-paper argument develops. This is where the literature review is drafted in rough form.
+- **Synthesis notes** ([[Literature Review/Synthesis/README|Literature Review/Synthesis]]) — seven thematic notes where cross-paper argument develops. This is where the literature review is drafted in rough form.
 
-The six synthesis notes:
+The seven synthesis notes:
 
 - [[Literature Review/Synthesis/The Problem]] — mechanisms of cognitive offloading, which cognitive functions are at stake
 - [[Literature Review/Synthesis/Theoretical Foundations]] — Bjork, Kapur, Vygotsky, metacognitive framework
@@ -38,6 +38,7 @@ The six synthesis notes:
 - [[Literature Review/Synthesis/Usage Strategies]] — user-side strategies
 - [[Literature Review/Synthesis/AI Roles]] — Socratic Tutor, Provocateur, Facilitator, etc.
 - [[Literature Review/Synthesis/Adoption and Friction]] — the cross-cutting tension
+- [[Literature Review/Synthesis/Outcomes]] — the three-type outcomes typology (intermediary, cognitive, task) the framework chain ends in
 
 After each paper, update the 1–3 synthesis notes it touches. Add bullets under an H3 wikilinked to the Overview Paper. If the paper shifts your thinking, edit the **Working Thoughts** section of Current Argument. Once multiple papers back a claim, promote it into **Synthesized Position** with inline citekeys.
 
@@ -113,10 +114,10 @@ Some current vault notes use shorthand labels, workshop reference numbers, or sl
 | --- | --- | --- |
 | [Lehmann, Cornelius, and Sting (2024), *AI Meets the Classroom: When Does ChatGPT Harm Learning?*](https://arxiv.org/abs/2409.09047) | When AI support helps versus harms learning in classroom-like settings. | Strong source for explanation-seeking versus solution-seeking. |
 | [Zhang and Reicherts (2025), *Augmenting Human Cognition With Generative AI: Lessons From AI-Assisted Decision-Making*](https://arxiv.org/abs/2504.03207) | A design-principle paper about process-oriented support in AI-assisted decision-making. | Best source for the forward-reasoning principle. |
+| [Rogers, Reicherts, Zhang, and Hassib (2025), *Augmenting Human Cognition Through Generative AI*](https://doi.org/10.13140/RG.2.2.14568.12801) | Springer Handbook of Human-AI Collaboration chapter (4.1). Consolidates the process-oriented-support research program across AI-assisted decision-making and GenAI co-creation (writing, programming, scientific discovery), and introduces the three-type outcomes typology (intermediary / cognitive / task) that Zhang 2026 builds on. | Structural source — outcomes framework + extended handbook version of the Zhang & Reicherts 2025 argument. Read as a pair with Zhang & Reicherts 2025. |
 | [Lira et al. (2025), *Learning Not Cheating: AI Assistance Can Enhance Rather than Hinder Skill Development*](https://arxiv.org/abs/2502.02880) | A positive case showing that AI help can support later skill development. | Important counterweight to purely negative accounts of offloading. |
 | [Kazemitabaar et al. (2025), *Exploring the Design Space of Cognitive Engagement Techniques with AI-Generated Code for Enhanced Learning*](https://arxiv.org/abs/2410.08922) | Concrete techniques for keeping learners cognitively engaged while using AI-generated code. | One of the best strategy papers for extraction. |
 | [Ashktorab et al. (2025), *Emerging Reliance Behaviors in Human-AI Content Grounded Data Generation: The Role of Cognitive Forcing Functions and Hallucinations*](https://research.ibm.com/publications/emerging-reliance-behaviors-in-human-ai-content-grounded-data-generation-the-role-of-cognitive-forcing-functions-and-hallucinations) | Reliance behavior, forcing functions, and user reactions to added friction. | Important for the adoption tension around protective friction. |
-| [Rogers et al. (2025), *Augmenting Human Cognition Through Generative AI*](https://doi.org/10.13140/RG.2.2.14568.12801) | A conceptual framing of how GenAI can augment cognition. | Useful mainly as an outcome lens; needs closer reading later. |
 | [Singh, Guan, and Rieh (2025), *Enhancing Critical Thinking in Generative AI Search with Metacognitive Prompts*](https://arxiv.org/abs/2505.24014) | Metacognitive prompts in GenAI-supported search. | A good direct source for reflective prompting strategies. |
 | [Sarkar (2024), *AI Should Challenge, Not Obey*](https://cacm.acm.org/opinion/ai-should-challenge-not-obey/) | A short provocation about AI as challenger rather than obedient assistant. | Good source for the provocateur role. |
 | [Sarkar (2024), *Intention Is All You Need*](https://arxiv.org/abs/2410.18851) | A position on protecting user intentionality in AI-supported work. | Useful for the autonomy and intentionality framing. |
@@ -168,17 +169,18 @@ Goal: identify the strongest evidence for cognitive offloading, confidence disto
 ### Stage 2: Extract Core Design Principles
 
 1. Zhang and Reicherts (2025)
-2. Lehmann et al. (2024)
-3. Lira et al. (2025)
-4. Kazemitabaar et al. (2025)
-5. Ashktorab et al. (2025)
-6. Singh et al. (2025)
-7. Sarkar (2024), *AI Should Challenge, Not Obey*
-8. Sarkar (2024), *Intention Is All You Need*
-9. Sarkar et al. (2024), *When Copilot Becomes Autopilot*
-10. Gmeiner et al. (2025)
+2. Rogers et al. (2025)
+3. Lehmann et al. (2024)
+4. Lira et al. (2025)
+5. Kazemitabaar et al. (2025)
+6. Ashktorab et al. (2025)
+7. Singh et al. (2025)
+8. Sarkar (2024), *AI Should Challenge, Not Obey*
+9. Sarkar (2024), *Intention Is All You Need*
+10. Sarkar et al. (2024), *When Copilot Becomes Autopilot*
+11. Gmeiner et al. (2025)
 
-Goal: derive the actual intervention logic for the taxonomy: forward reasoning, scaffolding, strategic friction, challenge, prompting, and intentionality preservation. Feed findings into [[Literature Review/Synthesis/Design Strategies]], [[Literature Review/Synthesis/Usage Strategies]], and [[Literature Review/Synthesis/AI Roles]].
+Goal: derive the actual intervention logic for the taxonomy: forward reasoning, scaffolding, strategic friction, challenge, prompting, and intentionality preservation — and ground the outcomes typology the framework evaluates against. Read Zhang & Reicherts 2025 and Rogers et al. 2025 as a pair: same research program, workshop paper + extended handbook chapter respectively. Feed findings into [[Literature Review/Synthesis/Design Strategies]], [[Literature Review/Synthesis/Usage Strategies]], [[Literature Review/Synthesis/AI Roles]], and [[Literature Review/Synthesis/Outcomes]].
 
 ### Stage 3: Map The Broader Strategy Landscape
 
@@ -186,7 +188,6 @@ Goal: derive the actual intervention logic for the taxonomy: forward reasoning, 
 2. Revisit Zhang et al. (2026) with chapter structure in mind
 3. Zheng et al. (2023)
 4. Terzimehić et al. (2025)
-5. Rogers et al. (2025)
 
 Goal: identify AI roles, outcome categories, and strategy families that can support the taxonomy and conceptual framework.
 
@@ -208,6 +209,7 @@ If time becomes tight, do not skip these:
 - Colombatto et al. (2025)
 - Lee et al. (2025)
 - Zhang and Reicherts (2025)
+- Rogers et al. (2025)
 - Lehmann et al. (2024)
 - Kazemitabaar et al. (2025)
 - Bastani et al. (2025)
@@ -225,6 +227,7 @@ For each paper, capture these points across the Zotero note and the relevant syn
 6. What cognitive function is being protected or augmented (tagging dimension across strategies)
 7. What kind of evidence supports the claim
 8. What tension or trade-off remains open → often [[Literature Review/Synthesis/Adoption and Friction]]
+9. What outcome type(s) the strategy produces or targets (intermediary artifact, cognitive change, task performance) → [[Literature Review/Synthesis/Outcomes]]
 
 ## Current Working Takeaways For The Thesis
 

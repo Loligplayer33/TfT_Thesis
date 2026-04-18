@@ -5,6 +5,16 @@ tags:
   - brainstorm
 status: exploratory
 ---
+## Possibly interesting stuff - collection
+> “its impact on learning is more complex. Studies show that using LLMs for direct solutions can impair learning, whereas using them for explanation-seeking can be beneficial [8]. This can be further complicated by a perception-performance paradox, where students may perceive LLMs as more helpful than traditional study methods, such as note-taking, even when their learning outcomes are worse [6]. On the other hand, if designed and used in meaningful  ways, there is much potential for cognitive augmentation. For example, AI assistance can enhance skill development by providing high-quality, personalised examples, acting as a powerful learning aid [9].” Yellow Highlight [Page 2](zotero://open-pdf/library/items/MQYNRQBP?page=2&annotation=XLDP7AS9)
+
+This first source could also be of particular interest regarding my note taking assistant idea and should be read. 
+
+The second one is directly tied to how note taking and the perception-performance paradox and should definitely be read
+
+The third one may show me possible augmentation strategies
+
+
 
 # Note Augmentation — Use Case Exploration
 

@@ -1,3 +1,7 @@
+# The Task:
+![[Pasted image 20260418172656.png]]
+
+
 # Thesis Overview — Where You Stand
 
 _A single-page map of your thesis, what's done, what's open, and how it all connects._

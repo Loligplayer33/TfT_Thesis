@@ -46,6 +46,10 @@ Design strategies (especially in domains where productivity in the present task 
 - Discusses different types of interaction types possible: From traditional turn-based conversations to feed-forward prompting to feedforward information [Page 6](zotero://open-pdf/library/items/67D5M9ET?page=6&annotation=9Y78FDY5)
 - Raises UI differentiation (provenance marking of AI vs. human content) as a design question with implications for metacognition [Page 7](zotero://open-pdf/library/items/67D5M9ET?page=7&annotation=D92QGMV6)
 
+### [[zhang2026tools]] 
+- The design of the TfT should focus on how it shapes, supports or extends thinking by capturing results of thought intensive activities. The outcomes should therefore be more focussed on the reshaping of the thinking (in a positive way) than the sole productivity gain [Page 3](zotero://open-pdf/library/items/MQYNRQBP?page=3&annotation=LD9CX95C)
+  (Outcomes are separate from design strategies - may need to put them in an own synthesis file)
+- 
 ### To integrate once read
 - `zhangReicherts2025` — process-oriented support and forward reasoning. Likely the single strongest source for the forward-reasoning principle.
 - `kazemitabaar2025` — cognitive engagement techniques in programming education.
