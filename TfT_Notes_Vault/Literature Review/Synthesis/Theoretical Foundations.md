@@ -20,6 +20,17 @@ This note connects the GenAI-specific findings from HCI research back to durable
 - Flags Dewey's traceability property as a potential lens for characterizing thinking-with-AI
 - Flags Dervin's sense-making theory (cognitive gaps and bridges) as an underused frame
 
+### [[tankelevitchMetacognitiveDemandsOpportunities2024]]
+- Differentiation between object-level and meta-level cognition. The first one describing those activities involved with the specific task execution like perceiving, remembering, classifying, deciding etc and the latter describing those cognitive activities that monitor the object-level activities assessing their functioning and allocating cognitive resources accordingly. [Page 2](zotero://open-pdf/library/items/JMV6BSEZ?page=2&annotation=7AIQEPS3)
+- Provides the descriptive metacognitive framework my thesis will lean on consisting of the two sources of metacognitive information for understanding one's own cognition (metacognitive knowledge and -experience) as well as two metacognitive abilities for assessing and guiding one's own cognition (metacognitive monitoring and -control).
+	- The metacognitive information and Metacognitive abilities are interconnected [picture](obsidian://open?vault=TfT_Notes_Vault&file=Literature%20Review%2Fzotero_notes%2FtankelevitchMetacognitiveDemandsOpportunities2024-zotero-notes-assets%2Fannotation-4-x50-y444.png)
+	=> See glossary for definitions
+- Confidence has two formally independent aspects: **calibration** (overall level matches overall accuracy) and **resolution** (discriminates correct from incorrect). Both can fail independently (§2.2).  Strategies may fix one without the other.
+- Human Heuristics that determine how much metacognition is necessary for completing a task is primeable. This mean, by triggering those heuristics through TfT (design) strategies, metacognition can be provoked. (f.e. processing fluency is a heuristic that can be triggered by a degraded font) (§2.5)
+- Metacognition is teachable and improvable (§2.6) - since metacognition is a precondition for all other types of valuable cognition, TfT strategies that act on metacognition are very promising.
+- 
+
+
 
 ### To integrate once read
 - Bjork — Desirable Difficulties. The canonical source for why strategic difficulty improves learning.

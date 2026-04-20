@@ -8,9 +8,9 @@ tags:
 
 # Synthesis Folder
 
-This folder contains the six thematic synthesis notes where cross-paper argument develops during the literature review. Each note corresponds to a dimension the thesis needs to argue.
+This folder contains the seven thematic synthesis notes where cross-paper argument develops during the literature review. Each note corresponds to a dimension the thesis needs to argue.
 
-## The Six Notes
+## The Seven Notes
 
 - [[Literature Review/Synthesis/The Problem]] — mechanisms of cognitive offloading, which cognitive functions are at stake, why users systematically fail to notice the loss
 - [[Literature Review/Synthesis/Theoretical Foundations]] — Desirable Difficulties (Bjork), Productive Failure (Kapur), Scaffolding/ZPD (Vygotsky; Wood, Bruner & Ross), metacognitive framework (Tankelevitch et al.)
@@ -18,6 +18,7 @@ This folder contains the six thematic synthesis notes where cross-paper argument
 - [[Literature Review/Synthesis/Usage Strategies]] — user-side strategies (explanation-seeking vs. solution-seeking, intermediate artifact creation, mode selection, meta-expertise)
 - [[Literature Review/Synthesis/AI Roles]] — Socratic Tutor, Provocateur, Facilitator, Ignorant Co-Learner, Coach; backbone of the conceptual framework
 - [[Literature Review/Synthesis/Adoption and Friction]] — the cross-cutting tension between cognitive protection and user adoption
+- [[Literature Review/Synthesis/Outcomes]] — the three-type outcomes typology (intermediary, cognitive, task) the framework chain ends in
 
 ## How Each Note Is Structured
 

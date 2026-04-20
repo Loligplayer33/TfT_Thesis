@@ -19,7 +19,7 @@ This folder contains the working literature review for the thesis. The workflow 
 - **Obsidian per-paper layer** holds a thin header per paper (title + Zotero metadata + links). Paper-level thinking lives in the Zotero note, not here.
 - **Obsidian synthesis layer** holds thematic notes in [[Literature Review/Synthesis/README|the Synthesis folder]] where arguments develop across papers.
 
-See [[Literature Review/Synthesis/README|Synthesis folder]] for the six thematic synthesis notes: The Problem, Theoretical Foundations, Design Strategies, Usage Strategies, AI Roles, Adoption and Friction.
+See [[Literature Review/Synthesis/README|Synthesis folder]] for the seven thematic synthesis notes: The Problem, Theoretical Foundations, Design Strategies, Usage Strategies, AI Roles, Adoption and Friction, Outcomes.
 
 ## Workflow Per Paper
 
@@ -92,7 +92,7 @@ Items 1–2 land in [[Literature Review/Synthesis/The Problem]]. Items 3–4 lan
 ## Start Here
 
 - [[Literature Review/Overview Synthesis and Reading Map]] — the reading map and source priorities
-- [[Literature Review/Synthesis/README|Synthesis]] — the six thematic synthesis notes
+- [[Literature Review/Synthesis/README|Synthesis]] — the seven thematic synthesis notes
 - [[Literature Review/templates/overview-paper-template]] — the paper header template
 - [[Literature Review/Sources by Domain]] — tracking for sources referenced but not yet read
 - [[Glossary]] — stable definitions

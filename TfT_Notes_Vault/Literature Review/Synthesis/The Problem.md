@@ -39,6 +39,10 @@ Cognitive processes in focus include critical thinking, learning, and creativity
  
  ### [[zhang2026tools]]
 - Explicitly states that learning with the help of GenAI tools is a double-sided sword directly referencing kreijkes et al for the perception-performance paradox.[Page 2](zotero://open-pdf/library/items/MQYNRQBP?page=2&annotation=XLDP7AS9)
+### [[tankelevitchMetacognitiveDemandsOpportunities2024]]
+- GenAI imposes high levels of metacognitive demands on users mainly across three phases: prompting, output evaluation, and automation strategy. These metacognitive demands arise from the characteristics of GenAI that sets them apart from other tools: model flexibility, generality, and origininality.
+- Cognitive offloading happens when users fail to meet the demands. The chain looks like this: GenAI tool demands high level of metacognition from the user in the three different phases due to their flexibility, generality and originality-> most users (especially novices) struggle with meeting this demand -> GenAI Systems promote offloading through their characteristics (like processing fluency) nudging the user to offload -> the user offloads the object-level thinking -> the cognitive processes that happen during the task are skipped. This reframes offloading not as laziness but as a _structural_ consequence of demand exceeding capacity.
+- 
 
 ### To integrate once read
 test

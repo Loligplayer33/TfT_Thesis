@@ -170,15 +170,15 @@ Goal: identify the strongest evidence for cognitive offloading, confidence disto
 
 1. Zhang and Reicherts (2025)
 2. Rogers et al. (2025)
-3. Lehmann et al. (2024)
-4. Lira et al. (2025)
-5. Kazemitabaar et al. (2025)
-6. Ashktorab et al. (2025)
-7. Singh et al. (2025)
-8. Sarkar (2024), *AI Should Challenge, Not Obey*
-9. Sarkar (2024), *Intention Is All You Need*
-10. Sarkar et al. (2024), *When Copilot Becomes Autopilot*
-11. Gmeiner et al. (2025)
+3. Gmeiner et al. (2025)
+4. Lehmann et al. (2024)
+5. Lira et al. (2025)
+6. Kazemitabaar et al. (2025)
+7. Ashktorab et al. (2025)
+8. Singh et al. (2025)
+9. Sarkar (2024), *AI Should Challenge, Not Obey*
+10. Sarkar (2024), *Intention Is All You Need*
+11. Sarkar et al. (2024), *When Copilot Becomes Autopilot*
 
 Goal: derive the actual intervention logic for the taxonomy: forward reasoning, scaffolding, strategic friction, challenge, prompting, and intentionality preservation — and ground the outcomes typology the framework evaluates against. Read Zhang & Reicherts 2025 and Rogers et al. 2025 as a pair: same research program, workshop paper + extended handbook chapter respectively. Feed findings into [[Literature Review/Synthesis/Design Strategies]], [[Literature Review/Synthesis/Usage Strategies]], [[Literature Review/Synthesis/AI Roles]], and [[Literature Review/Synthesis/Outcomes]].
 
@@ -210,6 +210,7 @@ If time becomes tight, do not skip these:
 - Lee et al. (2025)
 - Zhang and Reicherts (2025)
 - Rogers et al. (2025)
+- Gmeiner et al. (2025)
 - Lehmann et al. (2024)
 - Kazemitabaar et al. (2025)
 - Bastani et al. (2025)

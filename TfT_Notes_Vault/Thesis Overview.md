@@ -24,7 +24,7 @@ The overview pass through the three framing papers is substantially complete (al
 
 The fuller reading map, phased reading plan, and concise source list live in [[Literature Review/Overview Synthesis and Reading Map]].
 
-Current active reading layer is in [[Literature Review/Synthesis/README|Literature Review/Synthesis]] — six thematic synthesis notes where cross-paper argument develops.
+Current active reading layer is in [[Literature Review/Synthesis/README|Literature Review/Synthesis]] — seven thematic synthesis notes where cross-paper argument develops.
 
 ---
 
@@ -48,7 +48,7 @@ The thesis has four required outputs. They build on each other sequentially.
 
 **Synthesis infrastructure in place:**
 
-- Six thematic notes in [[Literature Review/Synthesis/README|Literature Review/Synthesis]] — cross-paper argument develops here
+- Seven thematic notes in [[Literature Review/Synthesis/README|Literature Review/Synthesis]] — cross-paper argument develops here
 - Paper-level records in `Literature Review/zotero_notes/` — reading record and in-situ reactions
 - Thin paper headers in `Literature Review/Overview Papers/` and `Literature Review/imports/`
 - [[Literature Review/Sources by Domain]] — tracking for sources referenced across papers
@@ -128,8 +128,8 @@ The thesis _leads_ with the framework (deliverables 1–3) and presents the prot
 | Work item                                             | Deliverable it feeds | Priority                                                                                             |
 | ----------------------------------------------------- | -------------------- | ---------------------------------------------------------------------------------------------------- |
 | Stage 1 reading (problem mechanism papers)            | 1                    | **Next** — Colombatto, Lee, Fan, Kreijkes, Bastani                                                   |
-| Stage 2 reading (design principles)                   | 1                    | After Stage 1 — Zhang & Reicherts, Lehmann, Lira, Kazemitabaar, Ashktorab, Singh, Sarkar             |
-| Stage 3 reading (strategy landscape, adoption)        | 1                    | After Stage 2 — Zheng, Terzimehić, Rogers                                                            |
+| Stage 2 reading (design principles)                   | 1                    | After Stage 1 — Zhang & Reicherts, Rogers, Lehmann, Lira, Kazemitabaar, Ashktorab, Singh, Sarkar     |
+| Stage 3 reading (strategy landscape, adoption)        | 1                    | After Stage 2 — Zheng, Terzimehić                                                                    |
 | Stage 4 reading (theoretical anchors)                 | 1                    | After Stage 3 — Bjork, Kapur, Vygotsky / Wood, Bruner & Ross                                         |
 | Strategy taxonomy (as explicit artifact)              | 2                    | After sufficient literature; the Synthesis notes accumulate the raw material                         |
 | Explicit conceptual framework                         | 3                    | After taxonomy                                                                                       |

@@ -49,7 +49,14 @@ Design strategies (especially in domains where productivity in the present task 
 ### [[zhang2026tools]] 
 - The design of the TfT should focus on how it shapes, supports or extends thinking by capturing results of thought intensive activities. The outcomes should therefore be more focussed on the reshaping of the thinking (in a positive way) than the sole productivity gain [Page 3](zotero://open-pdf/library/items/MQYNRQBP?page=3&annotation=LD9CX95C)
   (Outcomes are separate from design strategies - may need to put them in an own synthesis file)
-- 
+
+[[tankelevitchMetacognitiveDemandsOpportunities2024]]
+- Tanklevitch argues that metacognitive demands are one of the main reasons why cognitive offloading happens. Thereby, through the reduction of metacognitive demands offloading could be minimized [Page ](zotero://open-pdf/library/items/JMV6BSEZ?page=1&annotation=W9NR7UPB)
+- (§2.5) provides the theoretical justification for design strategies like seamful design and deliberate disfluency. 
+
+
+
+
 ### To integrate once read
 - `zhangReicherts2025` — process-oriented support and forward reasoning. Likely the single strongest source for the forward-reasoning principle.
 - `kazemitabaar2025` — cognitive engagement techniques in programming education.

@@ -16,13 +16,26 @@
     
 - Metacognition:
     
-    - Knowledge and understanding of your own thinking 
+    - The psychological ability to monitor and control one's thoughts and behavior
 	    ⇒ monitoring whether you understand something, noticing when your reasoning has a gap, deciding to go back and check an assumption. It's "higher-order" in a literal sense — it sits above the other cognitive processes and regulates them.
+	    
+	 **Taxonomy of Metacognition:** (tankelevitchMetacognitiveDemandsOpportunities2024 §2)
+	- **Metacognitive Knowledge:** Describes the explicit knowledge of a person about their own abilities, strategies and beliefs in performing a cognitive task.
+		-> A person may know that he is lacking the ability to reason through complex problems in a structured way
+	- **Metacognitive Experience:** Describes the feelings a person has regarding their ability to perform a cognitive task while performing the task (familiarity, processing fluency, felt difficulty)
+		-> A person may have a gut feeling, that his current reasoning is not stringent and may have flaws without being able to directly point to them
+	- **Metacognitive Monitoring:** Ability to assess one's own thinking (self-awareness and confidence calibration)
+		- **Self Awareness:** The capacity to recognize one’s own thoughts, emotions, and actions, as well as how these factors influence cognition
+			-> Including the awareness of one's goal and intentions
+		- **Confidence:** The ability to self-assess one's own cognitive abilities ad their application to tasks
+
+	- **Metacognitive Control**: Ability to guide one's own thinking (task decomposition, flexibility)
+		- Metacognitive flexibility: Ability to shift cognitive strategies when encountering new information
+		- Task decomposition: Ability to break down a task into concrete, actionable sub-tasks and steps
 	    
 - Object-level and Meta-level cognition [Source](zotero://open-pdf/library/items/JMV6BSEZ?page=2&annotation=7AIQEPS3)
 	- Object-level cognition: The primary cognitive work on the task itself, like perceiving, remembering, classifying, deciding
 	- Meta-level cognition: Monitor and regulate that primary work, like checking understanding or deciding to reread
-
 
 ### List of higher order cognition activities:
 - Metacognition (does stand separate from other higher order cognition activities since it enables and steers all others)
