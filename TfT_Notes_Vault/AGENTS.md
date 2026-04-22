@@ -35,6 +35,10 @@ For active literature-review work:
 
 - [[Literature Review/README]]
 
+For paper synthesis integration (the "generate synthesis additions" workflow):
+
+- [[ai/synthesis-integration-workflow]]
+
 ## Zotero Import Conventions
 
 - Main paper notes import into `Literature Review/imports/`.
