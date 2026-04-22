@@ -15,7 +15,7 @@ status: draft
 - Citekey: `tankelevitchMetacognitiveDemandsOpportunities2024`
 - [Open in Zotero](zotero://select/library/items/62E6M6MG)
 - [Source URL](http://arxiv.org/abs/2312.10893)
-- [[Literature Review/Overview Papers/tankelevitchMetacognitiveDemandsOpportunities2024|Main note]]
+- [[tankelevitchMetacognitiveDemandsOpportunities2024|Main note]]
 
 ---
 
@@ -123,7 +123,7 @@ A general shift from production to evaluation
 
 > “AI output evaluation and reliance: confidence adjustment. Recent work has investigated the role of self-confidence in evaluating and relying on AI output, although with discriminative models, rather than GenAI. For example, in AI-assisted decision-making in chess, participants’ reliance on the AI was only significantly predicted by their self-confidence, and not by their confidence in the AI [35].” Yellow Highlight [Page 8](zotero://open-pdf/library/items/JMV6BSEZ?page=8&annotation=S4GYEBFS)
 
-what determines whether people rely on AI in not how much they trust AI, but how much they trust themselves: If they are confident, they rely less on AI, if they objectively bad at the task but self confident personthrough the dunning-kruger effect they may still feel confident and rely less on AI. If they are uncertain about how reliable AI is, they follow the heuristic, that they trust it when it is agreeing with the user.
+what determines whether people rely on AI is not how much they trust AI, but how much they trust themselves: If they are confident, they rely less on AI, if they are objectively bad at the task but self confident person through the dunning-kruger effect they may still feel confident and rely less on AI. If they are uncertain about how reliable AI is, they follow the heuristic, that they trust it when it is agreeing with the user.
 
 (see next few sentences for the examples)
 

@@ -21,11 +21,15 @@ _Do strategies exist that improve cognitive protection without proportionally de
 *To be developed as more papers accumulate.*
 ## Paper Contributions
 
-### [[Literature Review/Overview Papers/tankelevitchUnderstandingProtectingAugmenting2025|tankelevitchUnderstandingProtectingAugmenting2025]]
+### [[tankelevitchUnderstandingProtectingAugmenting2025|tankelevitchUnderstandingProtectingAugmenting2025]]
 - Formulates the major tradeoff between usefulness and efficiency benefits(regarding the output creation) and protection/augmentation of the user's cognition. Cheung argues that all types of provocations have to be linked to pedagogical goals to gain user acceptance. 
 
 ### [[zhang2026tools]]
 - Follows the same arc describing the tradeoff between productivity gain and friction introducing usage- and design strategies. 
+
+### [[tankelevitchMetacognitiveDemandsOpportunities2024]]
+- **Perception-performance divergence** appears here too (§3.1.1 fn 8): "the cognitive effort of effective learning is experienced negatively by students, leading to a divergence between perceptions of the learning experience and objective learning outcomes." Same pattern Kreijkes documents for GenAI.
+- Processing fluency is adoption-relevant, not just evaluation-relevant: easy-to-use interfaces inflate false competence, which shapes continued use and perceived need for protection. Productivity-optimised UX directly feeds the adoption side of the tension (§4.1.2).
 
 
 

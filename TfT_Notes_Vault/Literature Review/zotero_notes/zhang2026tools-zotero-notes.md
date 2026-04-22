@@ -15,7 +15,7 @@ status: draft
 - Citekey: `zhang2026tools`
 - [Open in Zotero](zotero://select/library/items/2Y584BF2)
 - [Source URL](https://www.microsoft.com/en-us/research/publication/tools-for-thought-understanding-protecting-and-augmenting-human-cognition-with-generative-ai-from-vision-to-implementation/)
-- [[Literature Review/Overview Papers/zhang2026tools|Main note]]
+- [[zhang2026tools|Main note]]
 
 ---
 

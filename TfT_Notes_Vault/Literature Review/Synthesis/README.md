@@ -13,7 +13,7 @@ This folder contains the seven thematic synthesis notes where cross-paper argume
 ## The Seven Notes
 
 - [[Literature Review/Synthesis/The Problem]] — mechanisms of cognitive offloading, which cognitive functions are at stake, why users systematically fail to notice the loss
-- [[Literature Review/Synthesis/Theoretical Foundations]] — Desirable Difficulties (Bjork), Productive Failure (Kapur), Scaffolding/ZPD (Vygotsky; Wood, Bruner & Ross), metacognitive framework (Tankelevitch et al.)
+- [[Theoretical Foundations]] — Desirable Difficulties (Bjork), Productive Failure (Kapur), Scaffolding/ZPD (Vygotsky; Wood, Bruner & Ross), metacognitive framework (Tankelevitch et al.)
 - [[Literature Review/Synthesis/Design Strategies]] — system-side interventions (withholding, process-oriented support, scaffolding, provocation, transparency, customizability, intervention timing)
 - [[Literature Review/Synthesis/Usage Strategies]] — user-side strategies (explanation-seeking vs. solution-seeking, intermediate artifact creation, mode selection, meta-expertise)
 - [[Literature Review/Synthesis/AI Roles]] — Socratic Tutor, Provocateur, Facilitator, Ignorant Co-Learner, Coach; backbone of the conceptual framework

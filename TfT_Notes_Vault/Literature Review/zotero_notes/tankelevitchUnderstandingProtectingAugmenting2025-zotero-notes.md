@@ -15,7 +15,7 @@ status: draft
 - Citekey: `tankelevitchUnderstandingProtectingAugmenting2025`
 - [Open in Zotero](zotero://select/library/items/DRJQ4YAD)
 - [Source URL](http://arxiv.org/abs/2508.21036)
-- [[Literature Review/Overview Papers/tankelevitchUnderstandingProtectingAugmenting2025|Main note]]
+- [[tankelevitchUnderstandingProtectingAugmenting2025|Main note]]
 
 ---
 

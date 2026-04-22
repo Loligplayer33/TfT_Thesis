@@ -6,18 +6,29 @@ status: active
 
 # Usage Strategies
 
-This note covers user-side strategies — the choices users make about how to interact with GenAI that shape whether cognition is protected or offloaded. Unlike design strategies, these are not built into the system; they are enacted by the user (e.g. explanation-seeking rather than solution-seeking, producing independent intermediate artifacts before consulting AI, selecting an appropriate AI mode for the task at hand). The literature is noticeably thinner here than on design strategies — that asymmetry is itself a finding worth naming in the thesis. Watch for the recursive problem: exercising a good usage strategy often requires the very metacognitive capacities the system is trying to protect.
+This note covers user-side strategies — the choices users make about how to interact with GenAI that shape whether cognition is protected or offloaded. Unlike design strategies, these are not built into the system; they are enacted by the user (e.g. explanation-seeking rather than solution-seeking, producing independent intermediate artifacts before consulting AI, selecting an appropriate AI mode for the task at hand). 
+
+Exercising a good usage strategy requires exactly the metacognitive capacities the problem statement says are under-resourced. Novice users who most need usage strategies are least equipped to enact them. Not a reason to abandon the category — a reason to treat usage strategies as an _outcome_ of design strategies (what improved metacognition enables) as much as a parallel lever. Design enables, user enacts, the enacted behaviour eventually becomes a strategy in its own right.
 
 ## Current Argument
 
-*Running prose. Your current position on this theme, written as argument rather than summary. Inline references use plain citekeys in parentheses, e.g. `(zhang2026tools)` — not wikilinks. The wikilink coverage is handled by Paper Contributions subheadings below. Edit in place as new papers shift your thinking.*
+### Working Thoughts
 
+
+### Synthesized Position
 ## Paper Contributions
 
-### [[Literature Review/Overview Papers/tankelevitchUnderstandingProtectingAugmenting2025|tankelevitchUnderstandingProtectingAugmenting2025]]
+### [[tankelevitchUnderstandingProtectingAugmenting2025|tankelevitchUnderstandingProtectingAugmenting2025]]
 
  - Meta-expertise is emerging as a distinct user competence — knowing when to delegate, orchestrate across tools, and navigate across domains is its own kind of expertise, distinct from domain expertise and AI-specific skill. Different user populations will have different combinations of domain, AI, and managerial/delegation expertise, which shapes which usage strategies apply. [Page 4](zotero://open-pdf/library/items/67D5M9ET?page=4&annotation=ZKBU9BUT) [Page 7](zotero://open-pdf/library/items/67D5M9ET?page=7&annotation=HE6RIE35)
 - User-selectable mode toggles (Ayyappan & Joyner) — systems can let users explicitly switch between "Tell me the answer" and "Ask me a question" modes, treating engagement depth as a user-chosen parameter. Concrete usage strategy that also addresses the motivation tension around friction-heavy designs. [Page 5](zotero://open-pdf/library/items/67D5M9ET?page=5&annotation=V769FUXI)
+
+### [[tankelevitchMetacognitiveDemandsOpportunities2024]]
+- **Expert prompting behaviour as usage strategy.** Experts decompose tasks into "microtasks," prompt "as precisely as I would for a stupid collaborator" (Barke et al.; Liang et al.). Enacted usage strategy requiring self-awareness and task decomposition (§3.1.1).
+- **Diegetic vs. non-diegetic prompting** (Dang et al.) as a usage choice. Diegetic is easier, less controllable; non-diegetic demands more self-awareness but yields higher quality when done well
+- **Customizability has a usage-strategy face.** System offers parameters/modes/prompting strategies; the user's act of selecting and adjusting is itself a metacognitive decision. Clearest example in the literature of a design strategy and usage strategy being two faces of the same mechanism (§4.2.2).
+- Generally: Exercising usage strategies are themselves highly metacognitively demanding and require skill in both the task's domain as well as in the GenAI tooling
+
 
 ### To integrate once read
 - `lehmann2024` — solution-seeking harms, explanation-seeking helps. The cleanest experimental case for a usage strategy.

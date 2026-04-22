@@ -10,11 +10,15 @@ This note connects the GenAI-specific findings from HCI research back to durable
 
 ## Current Argument
 
-*Running prose. Your current position on this theme, written as argument rather than summary. Inline references use plain citekeys in parentheses, e.g. `(zhang2026tools)` — not wikilinks. The wikilink coverage is handled by Paper Contributions subheadings below. Edit in place as new papers shift your thinking.*
+### Working Thoughts
+(tankelevitchMetacognitiveDemandsOpportunities2024) is the connective tissue between the learning-theory anchors (Bjork, Kapur, Vygotsky) and the HCI/GenAI papers. Desirable Difficulties justifies why friction helps; the metacognitive framework specifies _what cognitive capacities the friction is protecting and activating_. Without that middle layer, the thesis would either be learning theory applied by analogy to GenAI, or HCI design patterns without theoretical justification. The paper's framework is what makes the bridge coherent.
+
+### Synthesized Position
+
 
 ## Paper Contributions
 
-### [[Literature Review/Overview Papers/tankelevitchUnderstandingProtectingAugmenting2025|tankelevitchUnderstandingProtectingAugmenting2025]] 
+### [[tankelevitchUnderstandingProtectingAugmenting2025|tankelevitchUnderstandingProtectingAugmenting2025]] 
 - Makes a direct connection back to (tankelevitchMetacognitiveDemandsOpportunities2024) by arguing that the decision process of offloading to GenAI in itself is an emerging kind of meta-expertise. One that requires a lot of metacognitive effort (as argued by tanklevitch in the paper above) [Page 4](zotero://open-pdf/library/items/67D5M9ET?page=4&annotation=ZKBU9BUT)
 - Lists the theories the field is drawing on but not yet systematically integrating: Bloom's Taxonomy, Dewey's reflective thinking, Schön's reflection model, Sawyer's creativity model, Hammond's Cognitive Continuum Theory, dual-process theories, metacognition theory, pragmatism [Page 8](zotero://open-pdf/library/items/67D5M9ET?page=8&annotation=QSEARWP2)
 - Flags Dewey's traceability property as a potential lens for characterizing thinking-with-AI
@@ -28,7 +32,9 @@ This note connects the GenAI-specific findings from HCI research back to durable
 - Confidence has two formally independent aspects: **calibration** (overall level matches overall accuracy) and **resolution** (discriminates correct from incorrect). Both can fail independently (§2.2).  Strategies may fix one without the other.
 - Human Heuristics that determine how much metacognition is necessary for completing a task is primeable. This mean, by triggering those heuristics through TfT (design) strategies, metacognition can be provoked. (f.e. processing fluency is a heuristic that can be triggered by a degraded font) (§2.5)
 - Metacognition is teachable and improvable (§2.6) - since metacognition is a precondition for all other types of valuable cognition, TfT strategies that act on metacognition are very promising.
-- 
+- Metacognitive demand != cognitive load. But metacognitive demand substantially contributes to overall cognitive load.
+- The three main activities imposing high levels of cognitive demand and therefore cognitive load on the user are: Prompting GenAI systems (§3.1), Evaluating and relying on generative AI output (§3.2),  Automation strategy and generative AI workflows (§3.3)
+
 
 
 

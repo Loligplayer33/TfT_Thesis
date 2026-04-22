@@ -22,7 +22,7 @@ The Quality of outcomes of tools for thought shall not only be evaluated by task
 
 ## Paper Contributions
 
-### [[Literature Review/Overview Papers/zhang2026tools|zhang2026tools]]
+### [[zhang2026tools|zhang2026tools]]
 - Three broad types of outcomes are being identified (based on Rogers et al):
 	1. Intermediary outcomes: Tangible artifacts that scaffold thinking by externalising (not outsourcing!) abstraction, inference and reflection.
 	2. Cognitive outcomes: Changes in understanding, learning or cognitive skills (critical thinking) as well as metacognitive engagement
