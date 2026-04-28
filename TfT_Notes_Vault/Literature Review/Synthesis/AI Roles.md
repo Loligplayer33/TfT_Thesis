@@ -25,9 +25,8 @@ This note develops the catalog of AI roles that emerge from the literature — S
 ### To integrate once read
 - `sarkar2024a` — Provocateur. Explicit framing of AI as challenger rather than obedient assistant.
 - `zheng2023` — Facilitator. AI as equal participant in group decision-making (competent but rigid).
-- `gmeiner2024` — Metacognitive support agents that ask reflective questions and support task decomposition.
+- `gmeinerExploringPotentialMetacognitive2025` — Metacognitive support agents that ask reflective questions and support task decomposition.
 - Cheung (2025, covered in the CHI 2025 synthesis) — Ignorant Co-Learner. Deliberately "artificially ignorant" system prompting critical reflection.
-- `tankelevitchUnderstandingProtectingAugmenting2025` — already read, catalogues role metaphors (provocateur, antagonist, coach, ignorant co-learner) and the direct/indirect augmentation axis.
 
 ## Related
 - [[Literature Review/Synthesis/Design Strategies]]

@@ -32,7 +32,7 @@ Always read fresh — the user iterates on these files between conversations.
 3. `Thesis Overview.md` — current state map of the four deliverables.
 4. `Literature Review/Overview Synthesis and Reading Map.md` — reading plan and source map.
 5. The paper's Zotero notes file: `Literature Review/zotero_notes/{citekey}-zotero-notes.md`.
-   - Use `obsidian_list_files_in_dir` on `Literature Review/zotero_notes/` to find the exact filename — citekey-based but the title-derived suffix varies per paper.
+   - Filenames are citekey-based and should follow the stable pattern `{citekey}-zotero-notes.md`.
    - **This file is the primary input.** It contains the user's reactions, reading-time judgments, and cross-paper connections that the synthesis additions must respect.
 6. All seven synthesis notes in `Literature Review/Synthesis/`:
    - `The Problem.md`
@@ -45,6 +45,7 @@ Always read fresh — the user iterates on these files between conversations.
 7. `Glossary.md` — for stable term definitions; do not redefine terms here.
 8. `Literature Review/Bucket/The Metacognitive Framework and the User-AI Cognitive Entanglement Problem.md` — read if the paper touches metacognition, confidence, processing fluency, or user/AI separation.
 9. The paper's main note in `Literature Review/imports/{citekey}.md` if it exists.
+   - Older thin paper headers may still live under `Literature Review/Papers/`; use them as fallback context, not as the current canonical import target.
 
 Use `obsidian_batch_get_file_contents` for efficiency if you are connected via MCP. Otherwise decide what is the best approach.
 
@@ -157,6 +158,7 @@ The file must match the style of existing checklists in this vault. Reference ex
 - Conversational tone instead of analytical register.
 - Skipping the cross-cutting reminders section.
 - Failing to set a unique `STORAGE_KEY` (causes localStorage collisions across papers).
+- PC bullets that conflate the paper's operationalised variable with a higher-level mechanism it doesn't test (e.g. labelling exposure-confidence findings as 'fluency contamination evidence' when fluency was not measured).
 
 ## Pre-Flight Check
 
@@ -166,6 +168,7 @@ Before producing the checklist, confirm:
 - All seven synthesis notes have been read fresh (state may have changed).
 - `THESIS_CONTEXT.md` and `Thesis Overview.md` have been read.
 - Bucket note read if paper touches metacognition, confidence, or processing fluency.
+- For each PC bullet, confirm: what variable did the paper actually manipulate or measure? Does the bullet's framing stay within that scope, or does it import a mechanism the paper only references as background?
 
 ## Good Future-Chat Summary
 

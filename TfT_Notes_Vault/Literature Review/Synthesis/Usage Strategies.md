@@ -29,11 +29,18 @@ Exercising a good usage strategy requires exactly the metacognitive capacities t
 - **Customizability has a usage-strategy face.** System offers parameters/modes/prompting strategies; the user's act of selecting and adjusting is itself a metacognitive decision. Clearest example in the literature of a design strategy and usage strategy being two faces of the same mechanism (§4.2.2).
 - Generally: Exercising usage strategies are themselves highly metacognitively demanding and require skill in both the task's domain as well as in the GenAI tooling
 
+### [[colombattoMetacognitionConfidenceDynamics2025]]
+- **Decline-advice associated with better calibration and more independent verification** (§2.2.4, §3.2.3). Decline-advice participants showed positive self-confidence/completeness correlation; decliners more frequently included critical information omitted from the AI output. Note: in Study 1 the calibration finding is associational (participants self-selected); the comparable contrast on verification holds under random assignment in Study 2. Colombatto explicitly cautions that low overall verification rates limit the strength of the calibration interpretation (§2.2.4, p22).
+
+### [[leeImpactGenerativeAI2025]] 
+- **Three descriptive shifts in cognitive effort under GenAI.** Knowledge/Comprehension: information gathering → information verification. Application: problem-solving → response integration. Analysis/Synthesis/Evaluation: task execution → task stewardship. These are emergent usage patterns knowledge workers report, not prescriptive strategies — useful as empirical grounding for the claim that cognition relocates rather than disappears under GenAI. _(§5.2, pp12–14)_
+- **"Stewardship" proposed as the user-side role.** Lee et al. explicitly prefer "stewardship" over "teammate", "collaborator", or "supervisor" because accountability remains with the user while material production is delegated. The framing is about the _user's_ role, not the AI's — relevant for how the framework chapter treats user-side roles in its Role → Strategy → Cognitive Function chain. _(§6.2, p15)_
+
+
 
 ### To integrate once read
 - `lehmann2024` — solution-seeking harms, explanation-seeking helps. The cleanest experimental case for a usage strategy.
 - `lira2025` — conditions under which AI assistance supports rather than hinders skill development.
-- `tankelevitchMetacognitiveDemandsOpportunities2024` — already read, relevant here for customizability as user-exercised choice (selecting modes, adjusting parameters).
 - `terzimehic2025` — informal learning with conversational AI; bottom-up usage strategies outside formal TfT systems.
 
 ## Related

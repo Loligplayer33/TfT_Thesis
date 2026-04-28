@@ -55,6 +55,8 @@ The psychological ability to monitor and control one's thoughts and behavior
 	- **Self Awareness:** The capacity to recognize one’s own thoughts, emotions, and actions, as well as how these factors influence cognition
 	    -> Including the awareness of one's goal and intentions
 	  - **Confidence:** The ability to self-assess one's own cognitive abilities and their application to tasks
+		  - Prospective confidence: Confidence in self and AI to seek and rely on advice from GenAI [Page ](zotero://open-pdf/library/items/47Q4FLQL?page=1&annotation=Q4IWGQAS)
+		  - Retrospective confidence: How advice taking shapes the confidence in self and AI to rely on advice from GenAI
 
 - **Metacognitive Control**: Ability to guide one's own thinking (task decomposition, flexibility)
 	- Metacognitive flexibility: Ability to shift cognitive strategies when encountering new information

@@ -25,7 +25,7 @@ See [[Literature Review/Synthesis/README|Synthesis folder]] for the seven themat
 
 1. Add the paper to Zotero.
 2. Read and annotate it in Zotero, capturing highlights and in-situ reactions.
-3. Run `Import overview paper` to create the thin header note in `Literature Review/imports/` (or `Literature Review/Overview Papers/` for overview-type papers).
+3. Run `Import overview paper` to create the thin header note in `Literature Review/imports/`.
 4. Run `Import Zotero notes` to create the companion imported-material note in `Literature Review/zotero_notes/`.
 5. Leave the Zotero-notes imports and their assets in `zotero_notes` so re-imports keep updating the same files.
 6. Open the 1–3 synthesis notes the paper touches. For each:
@@ -37,6 +37,8 @@ See [[Literature Review/Synthesis/README|Synthesis folder]] for the seven themat
 
 - Keep raw highlights and in-situ reactions in Zotero.
 - Keep paper-level structure minimal in Obsidian — the Zotero note already does that work.
+- Treat `Literature Review/imports/` as the current canonical destination for main paper notes. Older thin headers may still exist under `Literature Review/Papers/`.
+- Treat substantive argument sections in `Literature Review/Synthesis/` as user-owned. During cleanup, only reading lists, tracking stubs, or other explicitly requested maintenance there should be changed.
 - Paper Contributions bullets in synthesis notes are 1–2 sentences max; compress further if they drift longer.
 - In synthesis prose (Working Thoughts, Synthesized Position), use plain citekeys in parentheses like `(zhang2026tools)`. The H3 wikilink in Paper Contributions handles backlink coverage.
 - Stable terms go in [[Glossary]]. Open research questions live there too.
@@ -72,7 +74,7 @@ The literature review should answer one guiding question:
 
 **What design and usage strategies exist, or can be derived, that help prevent cognitive offloading  or cognitive augmentation when people use GenAI?**
 
-Reading happens in phases defined in [[Literature Review/Overview Synthesis and Reading Map]]. Stage 0 (overview pass) is substantially complete: Tankelevitch 2025, Zhang 2026, and Tankelevitch 2024 all have Zotero notes.
+Reading happens in phases defined in [[Literature Review/Overview Synthesis and Reading Map]]. Stage 0 (overview pass) is substantially complete: Tankelevitch 2025, Zhang 2026, and Tankelevitch 2024 all have Zotero notes. Colombatto 2025 now also has a thin header and imported Zotero notes; Gmeiner 2025 has an in-progress main note shell.
 
 ## What To Extract From Each Paper
 

@@ -50,11 +50,11 @@ The thesis has four required outputs. They build on each other sequentially.
 
 - Seven thematic notes in [[Literature Review/Synthesis/README|Literature Review/Synthesis]] — cross-paper argument develops here
 - Paper-level records in `Literature Review/zotero_notes/` — reading record and in-situ reactions
-- Thin paper headers in `Literature Review/Overview Papers/` and `Literature Review/imports/`
+- Thin paper headers in `Literature Review/imports/` as the current canonical import location; older headers may still exist under `Literature Review/Papers/`
 - [[Literature Review/Sources by Domain]] — tracking for sources referenced across papers
 - [[Glossary]] — stable definitions
 
-**Status:** Overview pass substantially complete. Active synthesis work underway on Tankelevitch 2025. Stage 1 (problem mechanism papers — Colombatto, Lee, Fan, Kreijkes, Bastani) is the next priority.
+**Status:** Overview pass substantially complete. Active synthesis work is underway on Tankelevitch 2025. Colombatto 2025 now has a thin header plus imported Zotero notes, and Gmeiner 2025 has an in-progress main note shell. Stage 1 (problem mechanism papers — Colombatto, Lee, Fan, Kreijkes, Bastani) remains the next priority.
 
 ---
 

@@ -38,9 +38,12 @@ The current literature-review workflow in this vault is centered in:
 
 The workflow spans three layers: Zotero (reading record), per-paper thin headers in Obsidian, and thematic synthesis notes in the [[Literature Review/Synthesis/README|Synthesis folder]] where arguments develop across papers.
 
+Treat substantive argument text in `Literature Review/Synthesis/` as user-owned. Cleanup may update bottom reading/tracking stubs there, but `Current Argument`, `Working Thoughts`, and `Synthesized Position` should only be rewritten when the user explicitly asks.
+
 ### Import Logic
 
 - Main literature notes are imported into `Literature Review/imports/`.
+- Legacy thin paper headers may still exist under `Literature Review/Papers/`, but the current Zotero import command writes main notes to `Literature Review/imports/`.
 - Raw Zotero notes and annotation-heavy imports are stored in `Literature Review/zotero_notes/`.
 - Raw Zotero notes and their asset folders should stay in `zotero_notes` so re-imports keep updating the same files.
 - Imported filenames should stay **citekey-based**, not title-based, because long title-based filenames caused problems in the OneDrive-backed vault.

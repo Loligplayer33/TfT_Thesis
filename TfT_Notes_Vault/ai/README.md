@@ -12,6 +12,8 @@ This folder stores notes that help AI agents pick up workflow context quickly ac
 
 For agent rules, the completion checklist, and validation requirements, see [[AGENTS]].
 
+Substantive argument text in [[Literature Review/Synthesis/README|Literature Review/Synthesis]] is user-owned. AI agents should treat general cleanup there as tracking/list cleanup only unless the user explicitly asks for argument edits.
+
 ## When to Update This Folder
 
 If a change should survive across chat contexts, update or create a note here. This includes:
@@ -29,6 +31,8 @@ If you are adding a new reusable handoff note, add it to this folder and list it
 
 - [[ai/zotero-import-template-guide]]
 - [[ai/synthesis-integration-workflow]]
+
+The canonical reading-plan note is [[Literature Review/Overview Synthesis and Reading Map]]. Do not recreate duplicate reading-map notes at the vault root.
 
 ## Current Cross-Vault Anchors
 

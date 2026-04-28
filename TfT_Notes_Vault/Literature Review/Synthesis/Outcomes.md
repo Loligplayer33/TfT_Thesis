@@ -31,7 +31,6 @@ The Quality of outcomes of tools for thought shall not only be evaluated by task
 ### To integrate once read
 
 - `rogersAugmentingHumanCognition2025` — canonical source for the three-type outcomes typology (intermediary / cognitive / task). Handbook chapter that consolidates the process-oriented-support research program. Anchors how the framework evaluates whether a strategy does what it claims. (Citekey placeholder — confirm on Zotero import.)
-- `tankelevitchMetacognitiveDemandsOpportunities2024` — already read; revisit with outcomes in mind. Cognitive outcomes connect to the metacognitive framework: a TfT augmenting metacognition should produce observable changes in monitoring, control, and self-regulation.
 - `kreijkes2025` — perception-performance paradox: task outcomes (reading comprehension, memory) diverge from perceived benefit. The mismatch belongs here as well as in The Problem.
 - `lee2025` — self-reported reductions in cognitive effort as a cognitive-outcome signal in knowledge work.
 

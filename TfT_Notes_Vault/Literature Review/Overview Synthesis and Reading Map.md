@@ -27,7 +27,7 @@ This note is the canonical cross-paper orientation for the literature review. It
 Reading is structured across three layers:
 
 - **Zotero notes** (`Literature Review/zotero_notes/`) — full reading record, highlights, in-situ reactions. Cite with page-specific links here.
-- **Paper headers** (`Literature Review/Overview Papers/` and `Literature Review/imports/`) — thin orientation notes per paper. Title, citekey, Zotero metadata, link back to the Zotero note.
+- **Paper headers** (`Literature Review/imports/`) — the current canonical thin-note location for imported paper headers. Older thin headers may still exist under `Literature Review/Papers/`.
 - **Synthesis notes** ([[Literature Review/Synthesis/README|Literature Review/Synthesis]]) — seven thematic notes where cross-paper argument develops. This is where the literature review is drafted in rough form.
 
 The seven synthesis notes:
@@ -40,7 +40,7 @@ The seven synthesis notes:
 - [[Literature Review/Synthesis/Adoption and Friction]] — the cross-cutting tension
 - [[Literature Review/Synthesis/Outcomes]] — the three-type outcomes typology (intermediary, cognitive, task) the framework chain ends in
 
-After each paper, update the 1–3 synthesis notes it touches. Add bullets under an H3 wikilinked to the Overview Paper. If the paper shifts your thinking, edit the **Working Thoughts** section of Current Argument. Once multiple papers back a claim, promote it into **Synthesized Position** with inline citekeys.
+After each paper, update the 1–3 synthesis notes it touches. Add bullets under an H3 wikilinked to the paper note or Zotero note. If the paper shifts your thinking, edit the **Working Thoughts** section of Current Argument. Once multiple papers back a claim, promote it into **Synthesized Position** with inline citekeys.
 
 Supporting notes:
 

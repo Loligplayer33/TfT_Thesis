@@ -17,13 +17,8 @@ status: draft
 
 ---
 
-<!--
-This is a thin paper header — intentionally short.
-
-Paper-level thinking (highlights, reactions, in-situ arguments) lives in the companion
-Zotero note, not here. Cross-paper synthesis lives in Literature Review/Synthesis/.
-
-Only add content below if you need a paper-level orientation that does not fit
-cleanly in either of those places — for example a one-sentence takeaway you want
-visible without opening the Zotero note.
--->
+### Three main findings:
+1. Advice seeking from GenAI and reliance on the output of the  systems positively depends on participants' confidence in the system and the general capabilities of GenAI
+2. Advice seeking also negatively depended on the self-confidence from participants.
+=> System confidence and self-confidence are negatively correlated in regards to advice seeking AND reliance on GenAI
+3.  Exposure to GenAI advice leads to increases confidence in the GenAI AND in their self-confidence - no matter if they sought advice or not

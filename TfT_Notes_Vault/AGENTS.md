@@ -16,6 +16,7 @@ You MUST complete these steps before finishing any task that modifies shared doc
 - Respect the existing vault structure and naming conventions. If unsure, ask before reorganizing.
 - Use Obsidian wikilinks for all internal vault references.
 - Update canonical notes rather than duplicating content across files.
+- Treat substantive argument text in `Literature Review/Synthesis/` as user-owned. Do not rewrite `Current Argument`, `Working Thoughts`, or `Synthesized Position` there unless the user explicitly asks; bottom tracking lists and reading-stub cleanup are okay when requested.
 
 ## Project Context
 

@@ -35,6 +35,16 @@ This note connects the GenAI-specific findings from HCI research back to durable
 - Metacognitive demand != cognitive load. But metacognitive demand substantially contributes to overall cognitive load.
 - The three main activities imposing high levels of cognitive demand and therefore cognitive load on the user are: Prompting GenAI systems (§3.1), Evaluating and relying on generative AI output (§3.2),  Automation strategy and generative AI workflows (§3.3)
 
+### [[colombattoMetacognitionConfidenceDynamics2025]]
+- operationalization of confidence into prospective and retrospective confidence (see Glossary)
+- Argues for a bidirectional relationship between confidence and reliance: prospective confidence determines reliance on the output, and output evaluation influences retrospective confidence. (See problems though: verification breakdown and near verbatim copying as well as confidence inflation from advice exposure)
+- Confidence doesn't just gate whether users request advice — it continuously shapes how much of it they actually incorporate once requested. The two confidence axes (self, GenAI) push in opposite directions on reliance and operate independently (no interaction). (§2.2.2)
+- **Key finding:** decisions to request and rely on GenAI advice were associated with higher prospective confidence in the GenAI, and lower confidence in participants’ own abilities” [Page 22](zotero://open-pdf/library/items/47Q4FLQL?page=22&annotation=3VWL93H4) 
+- Changes in confidence from prospective to retrospective measures suggest that completing a task boosts users’ own confidence in their ability, while receiving support from a GenAI might boost confidence in the capabilities of the GenAI instead.” - A key result from study 1 [Page 23](zotero://open-pdf/library/items/47Q4FLQL?page=23&annotation=54XQ3AKW)
+- Key finding of study 2: Exposure to GenAI advice leads to increases confidence in the GenAI - no matter if they sought advice or not. => This finding may also be caused by the fact that people just structurally underestimated the capabilities of GenAI in 2024 when this study was conducted and does not implicate a general behavior that usage of GenAI always increases the confidence in it.[Page 28](zotero://open-pdf/library/items/47Q4FLQL?page=28&annotation=DN4X65H6)
+- The increased self-confidence and confidence in the system gained through genAI advice exposure did NOT carry over to other occasions (§3.2.2)
+- 
+
 
 
 
@@ -42,7 +52,6 @@ This note connects the GenAI-specific findings from HCI research back to durable
 - Bjork — Desirable Difficulties. The canonical source for why strategic difficulty improves learning.
 - Kapur — Productive Failure. Struggle-before-instruction as a learning mechanism.
 - Vygotsky / Wood, Bruner & Ross — Scaffolding and the ZPD. The original theoretical frame that HCI borrows from, often loosely.
-- `tankelevitchMetacognitiveDemandsOpportunities2024` — already read, covers the metacognitive framework (knowledge, experiences, monitoring, control).
 
 ## Related
 - [[Literature Review/Synthesis/Design Strategies]]

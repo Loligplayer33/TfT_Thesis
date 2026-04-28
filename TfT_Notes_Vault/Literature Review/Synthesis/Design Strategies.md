@@ -67,14 +67,26 @@ Design strategies (especially in domains where productivity in the present task 
 - **Feedforward design** (distinct from feedback): system invites an action and communicates what to expect. Addresses fuzzy abstraction matching by externalising tacit user intentions (§4.1.1).
 - Well-timed reflective prompts improve self-awareness and confidence calibration during cognitively demanding tasks (§4.1.2)
 - Context-aware AI systems self-determine the correct intervention time and format based on user actions and other variables. This intervention timing is a cross-cutting design dimension, not a strategy. Support can be on-demand, sequential, or dynamic/continuous. Same reflective-question strategy has very different cognitive and adoption consequences depending on timing (§4.1.3, §4.3) [Page 15](zotero://open-pdf/library/items/JMV6BSEZ?page=15&annotation=VLCAT2YG)
-- 
   => Interesting but extremely difficult to implement correctly
 - Explainability - the degree of enablement provided for user's to understand whether the AI can achieve their goals. Explainability can help the users to adjust their confidence levels in the AI (§4.2.1)
 - **Seamful design** as legitimate friction (§4.3): "some potential effort introduced by metacognitive support strategies may be justified, so long as these are well-designed and act in the service of improved metacognition and productivity." Warrant for the Working-Thoughts position that _friction is not the problem; ineffective friction is_.
 - **Seamful design** as legitimate friction (§4.3): "some potential effort introduced by metacognitive support strategies may be justified, so long as these are well-designed and act in the service of improved metacognition and productivity." Warrant for the Working-Thoughts position that _friction is not the problem; ineffective friction is_.
 
+### [[colombattoMetacognitionConfidenceDynamics2025]]
+- Both self- and system confidence influence reliance on AI systems in opposite ways and are NOT correlated with one another. Design strategies targeting one axis may be combinable orthogonally with strategies targeting the other. The paper does not test this design-implication directly (§2.2.2)
+- **Verbosity-verification tradeoff is a design variable** (§4 General Discussion, p42). Detail/length of AI output and user verification trade off when output may contain inaccuracies. Implication: the _form_ of output is a design choice with cognitive consequences, not just its presence/absence. Note: the paper observes this as an emergent property of ChatGPT's default verbosity, not as a manipulated variable, so the strength of the design claim depends on extension to systems with controllable verbosity.
+	- <b>The verbosity-verification tradeoff is named explicitly in the paper.</b> Your notes have both halves (verbose copying, missed verification) but don't name it as a tradeoff. p42: the paper says output detail (furnished by verbosity of many GenAI systems) and response verification trade off against each other when outputs may contain inaccuracies. This is highly citable and connects directly to your Design Strategies Working Thoughts argument about redirect-rather-than-refuse — verbosity is a design choice with measurable cognitive consequences. [Page 42](zotero://open-pdf/library/items/47Q4FLQL?page=42&annotation=F8EPUA4N)
+- People that voluntarily seek AI advice are much more likely to cognitively offload the whole task to AI than those where the AI advice was forced upon them [Page 41](zotero://open-pdf/library/items/47Q4FLQL?page=41&annotation=SBGTPNNB)=> This finding seems kind of obvious does not necessarily allow a conclusion to be made regarding a design strategy. Obviously people that seek advice are more likely to offload the tasks (otherwise they wouldn't have sought help in the first place)
+- Names design strategies in the form of interventions that might help with better calibrated self- and system confidence:
+	- In AI: providing background information on AI systems, uncertainty expressions in natural language, uncertainty highlighting / disclaimers
+	- Self-confidence calibration has been underexplored
+	[Page 42](zotero://open-pdf/library/items/47Q4FLQL?page=42&annotation=M3FCNYYX)
 
-
+### [[leeImpactGenerativeAI2025]]
+- **Three intervention levers: awareness, motivation, ability.** Lee et al. propose interventions that (1) raise awareness of critical-thinking opportunities (proactive interrupts vs. reactive on-request assistance), (2) raise motivation by framing CT as skill-development rather than per-task co-auditing, and (3) raise ability via features supporting inspection, refinement, and argument-analysis. The levers mirror the three inhibitor types from §4.3.2. _(§6.1.2, pp14–15)_
+- **Explicit user controls over the extent of AI assistance.** Lee et al. recommend surfacing controls that let users regulate AI involvement based on their confidence in themselves and in the AI. Reinforces the customizability-as-both-design-and-usage-strategy pattern from `tankelevitchMetacognitiveDemandsOpportunities2024` (§4.2.2); the finding that the two confidence axes pull in opposite directions gives that customizability argument empirical grounding. _(§6.1.1, p14)_
+- **AI explanations as questions rather than statements**: Lee cites prior work (ref [24]) showing that presenting AI explanations as questions improves logical discernment. Concrete pattern that operationalises the Socratic / forward-reasoning move and supports the redirect-rather-than-refuse argument in Working Thoughts. _(§2 Related Work)_ [Page 3](zotero://open-pdf/library/items/IFM766NF?page=3&annotation=5ILQQP8T)
+- **Feedback mechanisms aligned with explainable AI**: Lee's design recommendation pairs explicit user controls (already integrated above) with feedback mechanisms that help users gauge AI output reliability — when to trust AI vs. apply own critical thinking — explicitly aligned with explainable AI goals. The accountability framing matters: even with such mechanisms, the user must remain responsible for the outcome. Connects to `tankelevitchMetacognitiveDemandsOpportunities2024` §4.2.1 on explainability as a metacognitive-demand-reducing strategy. _(§6.1.1, p14)_ [Page 14](zotero://open-pdf/library/items/IFM766NF?page=14&annotation=7Q5EJB7Y)
 
 ### To integrate once read
 - `zhangReicherts2025` — process-oriented support and forward reasoning. Likely the single strongest source for the forward-reasoning principle.
@@ -84,7 +96,7 @@ Design strategies (especially in domains where productivity in the present task 
 - `sarkar2024b` — "Intention Is All You Need" — intentionality preservation as a design principle.
 - `minXia2024` — feedforward design as a fundamental GenAI component.
 - `liu2024` — proactive conversational agents with inner thoughts (feedforward in action).
-- `gmeiner2024` — metacognitive support agents in AI-assisted design.
+- `gmeinerExploringPotentialMetacognitive2025` — metacognitive support agents in AI-assisted design.
 
 ## Related
 - [[Literature Review/Synthesis/The Problem]]

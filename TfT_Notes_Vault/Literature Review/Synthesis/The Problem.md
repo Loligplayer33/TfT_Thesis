@@ -3,7 +3,6 @@ title: The Problem
 tags: [synthesis, thesis]
 status: active
 ---
-
 # The Problem
 
 This note develops the argument for why cognitive offloading with GenAI is a problem worth solving — what mechanisms drive it, which cognitive functions are at stake, and why users systematically fail to notice the loss. It will become the problem-statement section of the literature review.
@@ -15,6 +14,10 @@ Cognitive processes in focus include critical thinking, learning, and creativity
 ### Working Thoughts
 
 The problem is not that users fail to think carefully — it's that GenAI generates implicit metacognitive cues (processing fluency, rapid output, polished framing) that systematically corrupt the signals users rely on to know when they're thinking carefully. Tankelevitch 2024 gives this a mechanistic spine: diminishing criterion + fluency-driven confidence inflation + self-confidence-driven offloading together explain why even well-intentioned users offload without noticing. This converges with Tankelevitch 2025's workflow-shift observation (production → critical integration): the evaluative stance that offloading presupposes is exactly the stance fluency cues disrupt.
+
+As suggested by colombatto2025, confidence and reliance may be in a bidirectional relationship where prospective confidence determines reliance on AI systems and output evaluation influences retrospective confidence. Due to the characteristics of GenAI systems (see tanklevitch2024) , this can lead to a miscalibration cycle due to phenomena like near-verbatim copying, verification breakdown, confidence inflation from advice exposure etc. which all can lead (due to the bidirectional relationship between confidence and reliance) to overreliance and offloading
+> [!info]- AI extension:
+> Colombatto operationalises the perception-performance paradox for confidence: advice exposure (not reliance, not actual output quality) causally boosts retrospective self-confidence, independent of response completeness (§3.2.3, p=.129). Users infer competence from surface cues of the interaction — fluency, verbosity, polish — not from validation. Two routes, both feeding the perception side of the paradox: <b>Exposure route (design-side trigger):</b> High prospective confidence in GenAI → advice exposure → surface cues experienced as own-competence evidence → retrospective self-confidence rises regardless of outcome quality. GenAI analogue of the Fisher/Dunn/Eliseev internet-misattribution lineage.<b>Decline route (usage-side trigger):</b> Decline advice → self-confidence also rises, either via genuine capability evidence or motivated rationalisation (colombatto2025 names both, doesn't resolve). Implication for Usage Strategies: "decline advice" can produce better epistemic outcomes (more verification, more independent work) while the confidence signal validating the strategy is itself potentially distorted.
 
 ### Synthesized Position
 
@@ -51,8 +54,32 @@ The problem is not that users fail to think carefully — it's that GenAI genera
 - GenAI has **multiple non-intuitive failure modes** (subtle errors a human wouldn't make). Existing domain expertise doesn't automatically transfer to evaluation expertise — users need a new GenAI-specific evaluation competence (§3.2.1).
 - Users must have self awareness of the applicability of GenAI for their workflow, and well-adjusted confidence in their ability to complete the task manually versus with GenAI. To do that the metacognitive information need to accurately represent the user's actual skill-level that demands for a well-adjusted confidence. This is not easy to achieve as the user due to attributes of GenAI systems like high processing fluency leading to miscalibration of confidence levels
 
+### [[colombattoMetacognitionConfidenceDynamics2025]]
+- Confidence both in the Advisor (in this case the GenAI system) as well as in the user's own abilities both have major impact on the user's reliance on the system. 
+  Therefore a accurate confidence calibration (see tanklevitchMetacognitiveDemands2024, §3.2). 
+  Accurate cofidence-calibration though, is hard to achieve with GenAI systems due to the characteristics of GenAI: extensiveness of novel content, relative ease of novel content generation, GenAI's unintuitive failure modes etc. (tanklevitchMetacognitiveDemands2024, §3.2).
+- Users seeking advice were very likely to copy AI output near-verbatim (§2.2.2)
+	- AI:  **Behavioural face of offloading: near-verbatim copying** (§2.2.2). 53% of advice-taken responses showed >80% cosine similarity to AI output in Study 1 (5% for declined trials); 25% vs 1% in Study 2 (§3.2.1). The voluntary-vs-forced gap (53% vs 25%) is suggestive that choice-to-seek intensifies copying beyond mere exposure, but the studies differ in other ways too.
+	- 
+- **Verification breakdown** (§2.2.4). Advice-takers missed the deliberately removed critical step at much higher rates. Ties in directly with my finding from tanklevitch2024, where he stated that the more text the AI created at one, the lower the confidence threshold of the user in the AI output needed to be to accept the output. 
+	- 15.22% vs 30.46% inclusion in Study 1; 17.92% vs 24.68% in Study 2 (§3.2.3). Held even with a $10 monetary incentive for the most complete plan.
+	- 
+- Advice exposure inflates retrospective self-confidence
+	- (§3.2.1). Two preregistered studies (N=200, N=300) on event-planning. Study 2's random assignment isolates a causal role for advice _exposure_ (not reliance, not outcome quality) in inflating retrospective self-confidence. Response completeness uncorrelated with retrospective self-confidence (§3.2.3, p=.129).
+- **Partial-misattribution qualifier** (§4 General Discussion, p38). Confidence in _both_ self and GenAI rose with advice exposure — users appropriately attributed some credit to the system. Direct evidence for the _full_ fluency-contamination chain (where users experience AI fluency as their own competence) is therefore weaker than the exposure-confidence link alone suggests. Misattribution is real but partial.
+- **Lee 2025 disagreement to watch for** (§4 General Discussion, p42). Colombatto finds confidence unrelated to verification rates; lee2025 reports higher self-confidence → more critical-thinking effort. Authors attribute the discrepancy to artificial task context and varying GenAI experience in their sample. 
+
+### [[leeImpactGenerativeAI2025]]
+- Empirical evidence that cognitive-offloading patterns extend to adult knowledge work. (up until now only learning context)
+-  **Mechanised convergence as motivation**: Lee cites prior work showing GenAI-assisted workflows produce a less diverse set of outcomes for the same task than non-AI workflows, interpreted as deterioration of personal, contextualised, reflective judgment. Empirical motivation alongside Tankelevitch's mechanistic account of why offloading happens. [Page 2](zotero://open-pdf/library/items/IFM766NF?page=2&annotation=FPIQTGIA)
+- **Real-world complementary evidence for the production → critical integration shift**: Lee's survey provides cross-occupation, real-world evidence that knowledge workers shift from task execution to oversight under GenAI — complementing the controlled, narrow-domain studies that previously grounded this claim. Strengthens the workflow-shift argument already credited to `tankelevitchUnderstandingProtectingAugmenting2025`. [Page 2](zotero://open-pdf/library/items/IFM766NF?page=2&annotation=RRMC3S9A)
+- **Confidence duality in critical-thinking enaction**: Confidence in AI leads to less perceived enaction of critical thinking and self-confidence in doing the task oneself leads to higher perceived enaction of critical thinking -> There is a tradeoff here between higher higher cognitive load and the risk of cognitive offloading (§4.2) and [Page 12](zotero://open-pdf/library/items/IFM766NF?page=12&annotation=8LL7XDDK)
+	- AI bullet:
+	  Task-specific confidence in GenAI negatively predicts self-reported enaction of critical thinking (β=-0.69, p<0.001); confidence in doing the task oneself positively predicts it (β=0.26, p=0.026), and confidence in evaluating AI responses also positively predicts it (β=0.31, p=0.046). Adds survey-level convergence on top of `tankelevitchMetacognitiveDemandsOpportunities2024`'s theoretical account and `colombattoMetacognitionConfidenceDynamics2025`'s behavioural results.
+- **The effort–engagement paradox.** Higher AI-confidence correlates with _less_ self-reported critical thinking and with _perceived reduction_ in effort for 5/6 Bloom activities; higher self-confidence correlates with _more_ self-reported critical thinking and _greater_ perceived effort (especially Application and Evaluation). The two confidence axes pull in opposite directions on both enaction and experienced effort. _(§6.1.1, p14)_
+- **Offloading explicitly tied to low self-confidence**: Lee names the mechanism: lower self-confidence leads users to rely more on AI, "diminishing their critical engagement and independent problem-solving skills... a form of cognitive offloading [Engelbart]." Direct bridge from Lee's confidence findings to Tankelevitch's offloading account. [Page 14](zotero://open-pdf/library/items/IFM766NF?page=14&annotation=ZQLBTUQF)
+ 
 ### To integrate once read
-test
 - `colombatto2025` — confidence dynamics in advice-taking. Likely the single strongest source for the confidence-miscalibration mechanism.
 - `lee2025` — survey evidence for self-reported reductions in cognitive effort among knowledge workers.
 - `fan2025` — names "metacognitive laziness" as a mechanism directly aligned with the thesis framing.

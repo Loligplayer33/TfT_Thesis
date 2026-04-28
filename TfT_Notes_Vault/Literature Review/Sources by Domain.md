@@ -45,6 +45,8 @@ These are the theory anchors named in [[Literature Review/zotero_notes/tankelevi
 		- [135] Yaqing Yang, Vikram Mohanty, Nikolas Martelaro, Aniket Kittur, Yan-Ying Chen, and Matthew K. Hong. 2025. From Overload to Insight: Scaffolding Creative Ideation through Structuring Inspiration. [doi:10.48550/arXiv.2504. 15482](https://doi.org/10.48550/arXiv.2504.15482) arXiv:2504.15482 [cs].
 - Transforming content across modalities:
 	- Can Liu and Wengxi Li. 2025. Bridging the Cognitive Gap: Cross-Modality Perception in AI-Generated Content. In CHI’ 2025 Workshop on Tools for Thought: Research and Design for Understanding, Protecting, and Augmenting Human Cognition with Generative AI. Yokohama, Japan.
+- **Framing explanations as questions**
+	- Valdemar Danry, Pat Pataranutaporn, Yaoli Mao, and Pattie Maes. 2023. Don’t  Just Tell Me, Ask Me: AI Systems that Intelligently Frame Explanations as Questions Improve Human Logical Discernment Accuracy over Causal AI explanations. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (Hamburg, Germany) (CHI ’23). Association for Computing Machinery, New York, NY, USA, Article 352, 13 pages. https://doi.org/10.1145/3544548. 3580672
 
 ### AI Roles
 - Provocateur
