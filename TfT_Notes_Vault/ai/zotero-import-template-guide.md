@@ -23,6 +23,8 @@ Use this note in future AI chats when changing or extending the Zotero Integrati
   - `TfT_Notes_Vault/Literature Review/templates/zotero-notes-template.md`
 - Main import folder:
   - `TfT_Notes_Vault/Literature Review/imports/`
+- Organized paper folder:
+  - `TfT_Notes_Vault/Literature Review/Papers/`
 - Stable raw Zotero folder:
   - `TfT_Notes_Vault/Literature Review/zotero_notes/`
 
@@ -57,6 +59,7 @@ Use this note in future AI chats when changing or extending the Zotero Integrati
 - Main note commands are paper-type-specific.
   - `Import overview paper` is specific to overview papers.
   - future commands for other paper types should also be type-specific
+- New imports land in `Literature Review/imports/` by default; existing curated headers may be organized under `Literature Review/Papers/` by paper type.
 
 - `Import Zotero notes` is universal.
   - it should stay generic across paper types
@@ -100,7 +103,7 @@ After import, the thinking work should happen in the main literature note, not i
 2. Read and annotate it in Zotero.
 3. Run `Import overview paper`.
 4. Run `Import Zotero notes` for the same paper.
-5. Open the main note in `Literature Review/imports/` and the companion raw note in `Literature Review/zotero_notes/`.
+5. Open the main note in `Literature Review/imports/` or its curated `Literature Review/Papers/` location, and the companion raw note in `Literature Review/zotero_notes/`.
 6. Leave the raw Zotero note and its assets in `zotero_notes` so re-imports keep updating the same files.
 7. Fill the main note with the thesis-facing synthesis:
    - why the paper matters
@@ -157,7 +160,7 @@ The plugin creates the shell and imports the raw material. The analytical sectio
 
 If starting from a fresh chat, summarize the setup like this:
 
-> This vault uses Zotero Integration with one universal raw-import command (`Import Zotero notes`) and paper-type-specific main-note commands such as `Import overview paper`. Imported filenames must stay citekey-based because title-based filenames broke in the OneDrive vault. Raw Zotero notes and their assets live in `Literature Review/zotero_notes`, and main-note imports share that asset path to avoid stray image files at the vault root.
+> This vault uses Zotero Integration with one universal raw-import command (`Import Zotero notes`) and paper-type-specific main-note commands such as `Import overview paper`. Imported filenames must stay citekey-based because title-based filenames broke in the OneDrive vault. New main notes import into `Literature Review/imports/`; existing curated headers may be organized under `Literature Review/Papers/` by paper type. Raw Zotero notes and their assets live in `Literature Review/zotero_notes`, and main-note imports share that asset path to avoid stray image files at the vault root.
 
 ## Related Notes
 

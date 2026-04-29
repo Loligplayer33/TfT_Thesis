@@ -15,7 +15,7 @@ status: draft
 - Citekey: `kreijkesEffectsLLMUse2025`
 - [Open in Zotero](zotero://select/library/items/CPTKXDN6)
 - [Source URL](https://papers.ssrn.com/abstract=5095149)
-- [[Literature Review/imports/kreijkesEffectsLLMUse2025|Main note]]
+- [[Literature Review/Papers/Problem Papers/kreijkesEffectsLLMUse2025|Main note]]
 
 ---
 
@@ -70,4 +70,3 @@ Educators need to actively train and guide students towards correct AI usage, so
 
 
 - No Zotero item notes imported.
-

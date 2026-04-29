@@ -37,7 +37,7 @@ See [[Literature Review/Synthesis/README|Synthesis folder]] for the seven themat
 
 - Keep raw highlights and in-situ reactions in Zotero.
 - Keep paper-level structure minimal in Obsidian — the Zotero note already does that work.
-- Treat `Literature Review/imports/` as the current canonical destination for main paper notes. Older thin headers may still exist under `Literature Review/Papers/`.
+- Treat `Literature Review/imports/` as the default landing zone for newly imported main paper notes. Existing curated paper headers may be organized under `Literature Review/Papers/` by paper type.
 - Treat substantive argument sections in `Literature Review/Synthesis/` as user-owned. During cleanup, only reading lists, tracking stubs, or other explicitly requested maintenance there should be changed.
 - Paper Contributions bullets in synthesis notes are 1–2 sentences max; compress further if they drift longer.
 - In synthesis prose (Working Thoughts, Synthesized Position), use plain citekeys in parentheses like `(zhang2026tools)`. The H3 wikilink in Paper Contributions handles backlink coverage.
@@ -72,9 +72,9 @@ The canonical source list and reading priority lives in [[Literature Review/Over
 
 The literature review should answer one guiding question:
 
-**What design and usage strategies exist, or can be derived, that help prevent cognitive offloading  or cognitive augmentation when people use GenAI?**
+**What design and usage strategies exist, or can be derived, that help prevent cognitive offloading or support cognitive augmentation when people use GenAI?**
 
-Reading happens in phases defined in [[Literature Review/Overview Synthesis and Reading Map]]. Stage 0 (overview pass) is substantially complete: Tankelevitch 2025, Zhang 2026, and Tankelevitch 2024 all have Zotero notes. Colombatto 2025 now also has a thin header and imported Zotero notes; Gmeiner 2025 has an in-progress main note shell.
+Reading happens in phases defined in [[Literature Review/Overview Synthesis and Reading Map]]. Stage 0 (overview pass) is substantially complete: Tankelevitch 2025, Zhang 2026, and Tankelevitch 2024 all have Zotero notes and synthesis contributions. Stage 1's core problem-mechanism papers — Colombatto, Lee, Fan, Kreijkes, and Bastani — now have main notes, Zotero notes, and initial synthesis contributions in [[Literature Review/Synthesis/The Problem]]. Noy and Zhang remains a contrast source for productivity/adoption rather than a completed problem-mechanism read. Gmeiner 2025 has an in-progress main note shell and should be finished as part of Stage 2 design-principle extraction.
 
 ## What To Extract From Each Paper
 

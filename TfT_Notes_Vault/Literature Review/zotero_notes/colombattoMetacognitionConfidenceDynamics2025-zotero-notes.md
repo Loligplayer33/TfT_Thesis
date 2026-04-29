@@ -15,7 +15,7 @@ status: draft
 - Citekey: `colombattoMetacognitionConfidenceDynamics2025`
 - [Open in Zotero](zotero://select/library/items/DRRSF4KI)
 - [Source URL](http://arxiv.org/abs/2510.26508)
-- [[colombattoMetacognitionConfidenceDynamics2025|Main note]]
+- [[Literature Review/Papers/Problem Papers/colombattoMetacognitionConfidenceDynamics2025|Main note]]
 
 ---
 
@@ -159,4 +159,3 @@ Interesting design strategies to mitigate miscalibration of confidence to facili
 
 
 - No Zotero item notes imported.
-

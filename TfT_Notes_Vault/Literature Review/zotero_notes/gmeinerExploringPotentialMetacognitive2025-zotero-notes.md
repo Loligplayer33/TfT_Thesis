@@ -15,7 +15,7 @@ status: draft
 - Citekey: `gmeinerExploringPotentialMetacognitive2025`
 - [Open in Zotero](zotero://select/library/items/LXST6CGF)
 - [Source URL](http://arxiv.org/abs/2506.12879)
-- [[Literature Review/imports/gmeinerExploringPotentialMetacognitive2025|Main note]]
+- [[Literature Review/Papers/Design Papers/gmeinerExploringPotentialMetacognitive2025|Main note]]
 
 ---
 

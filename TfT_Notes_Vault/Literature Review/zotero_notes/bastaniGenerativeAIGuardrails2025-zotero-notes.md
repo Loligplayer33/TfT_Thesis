@@ -15,7 +15,7 @@ status: draft
 - Citekey: `bastaniGenerativeAIGuardrails2025`
 - [Open in Zotero](zotero://select/library/items/NIVSUJTK)
 - [Source URL](https://www.pnas.org/doi/10.1073/pnas.2422633122)
-- [[Literature Review/imports/bastaniGenerativeAIGuardrails2025|Main note]]
+- [[Literature Review/Papers/Problem Papers/bastaniGenerativeAIGuardrails2025|Main note]]
 
 ---
 
@@ -51,4 +51,3 @@ include this in the perception-performance pardox reference
 
 
 - No Zotero item notes imported.
-

@@ -15,7 +15,7 @@ status: draft
 - Citekey: `fanBewareMetacognitiveLaziness2025`
 - [Open in Zotero](zotero://select/library/items/7BPUQMM9)
 - [Source URL](http://arxiv.org/abs/2412.09315)
-- [[fanBewareMetacognitiveLaziness2025|Main note]]
+- [[Literature Review/Papers/Problem Papers/fanBewareMetacognitiveLaziness2025|Main note]]
 
 ---
 
@@ -91,4 +91,3 @@ Urban et al should be in my sources list. Seems relevant
 
 
 - No Zotero item notes imported.
-

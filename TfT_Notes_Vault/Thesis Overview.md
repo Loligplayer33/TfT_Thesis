@@ -16,7 +16,7 @@ Find, organize, and demonstrate design and usage strategies that prevent cogniti
 
 ## Current Entry Point: Overview First
 
-The overview pass through the three framing papers is substantially complete (all three have Zotero notes, with some synthesis work already started on Tankelevitch 2025):
+The overview pass through the three framing papers is substantially complete (all three have Zotero notes and synthesis contributions):
 
 1. **Tankelevitch et al. (2025) synthesis** — best broad map of the Tools for Thought field
 2. **Zhang et al. (2026) workshop paper** — best framing for the thesis structure
@@ -50,11 +50,11 @@ The thesis has four required outputs. They build on each other sequentially.
 
 - Seven thematic notes in [[Literature Review/Synthesis/README|Literature Review/Synthesis]] — cross-paper argument develops here
 - Paper-level records in `Literature Review/zotero_notes/` — reading record and in-situ reactions
-- Thin paper headers in `Literature Review/imports/` as the current canonical import location; older headers may still exist under `Literature Review/Papers/`
+- New thin paper headers land in `Literature Review/imports/`; existing curated paper headers may be organized under `Literature Review/Papers/` by paper type
 - [[Literature Review/Sources by Domain]] — tracking for sources referenced across papers
 - [[Glossary]] — stable definitions
 
-**Status:** Overview pass substantially complete. Active synthesis work is underway on Tankelevitch 2025. Colombatto 2025 now has a thin header plus imported Zotero notes, and Gmeiner 2025 has an in-progress main note shell. Stage 1 (problem mechanism papers — Colombatto, Lee, Fan, Kreijkes, Bastani) remains the next priority.
+**Status:** Overview pass substantially complete. Stage 1's core problem-mechanism papers — Colombatto, Lee, Fan, Kreijkes, and Bastani — now have main notes, Zotero notes, and initial synthesis contributions in [[Literature Review/Synthesis/The Problem]]. Noy and Zhang remains a contrast source for productivity/adoption. Gmeiner 2025 has an in-progress main note shell under `Literature Review/Papers/Design Papers/` and belongs to the current Stage 2 design-principle pass.
 
 ---
 
@@ -127,8 +127,8 @@ The thesis _leads_ with the framework (deliverables 1–3) and presents the prot
 
 | Work item                                             | Deliverable it feeds | Priority                                                                                             |
 | ----------------------------------------------------- | -------------------- | ---------------------------------------------------------------------------------------------------- |
-| Stage 1 reading (problem mechanism papers)            | 1                    | **Next** — Colombatto, Lee, Fan, Kreijkes, Bastani                                                   |
-| Stage 2 reading (design principles)                   | 1                    | After Stage 1 — Zhang & Reicherts, Rogers, Lehmann, Lira, Kazemitabaar, Ashktorab, Singh, Sarkar     |
+| Stage 1 reading (problem mechanism papers)            | 1                    | Initial synthesis pass complete for Colombatto, Lee, Fan, Kreijkes, Bastani; Noy and Zhang remains as contrast source |
+| Stage 2 reading (design principles)                   | 1                    | **Next** — finish Gmeiner integration, then Zhang & Reicherts, Rogers, Lehmann, Lira, Kazemitabaar, Ashktorab, Singh, Sarkar |
 | Stage 3 reading (strategy landscape, adoption)        | 1                    | After Stage 2 — Zheng, Terzimehić                                                                    |
 | Stage 4 reading (theoretical anchors)                 | 1                    | After Stage 3 — Bjork, Kapur, Vygotsky / Wood, Bruner & Ross                                         |
 | Strategy taxonomy (as explicit artifact)              | 2                    | After sufficient literature; the Synthesis notes accumulate the raw material                         |

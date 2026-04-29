@@ -44,8 +44,7 @@ Always read fresh — the user iterates on these files between conversations.
    - `Outcomes.md`
 7. `Glossary.md` — for stable term definitions; do not redefine terms here.
 8. `Literature Review/Bucket/The Metacognitive Framework and the User-AI Cognitive Entanglement Problem.md` — read if the paper touches metacognition, confidence, processing fluency, or user/AI separation.
-9. The paper's main note in `Literature Review/imports/{citekey}.md` if it exists.
-   - Older thin paper headers may still live under `Literature Review/Papers/`; use them as fallback context, not as the current canonical import target.
+9. The paper's main note in `Literature Review/imports/{citekey}.md` or under `Literature Review/Papers/` if it exists.
 
 Use `obsidian_batch_get_file_contents` for efficiency if you are connected via MCP. Otherwise decide what is the best approach.
 

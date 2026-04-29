@@ -15,7 +15,7 @@ status: draft
 - Citekey: `tankelevitchMetacognitiveDemandsOpportunities2024`
 - [Open in Zotero](zotero://select/library/items/62E6M6MG)
 - [Source URL](http://arxiv.org/abs/2312.10893)
-- [[tankelevitchMetacognitiveDemandsOpportunities2024|Main note]]
+- [[Literature Review/Papers/Overview Papers/tankelevitchMetacognitiveDemandsOpportunities2024|Main note]]
 
 ---
 

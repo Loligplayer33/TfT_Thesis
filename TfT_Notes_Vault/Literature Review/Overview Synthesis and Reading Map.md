@@ -27,7 +27,7 @@ This note is the canonical cross-paper orientation for the literature review. It
 Reading is structured across three layers:
 
 - **Zotero notes** (`Literature Review/zotero_notes/`) — full reading record, highlights, in-situ reactions. Cite with page-specific links here.
-- **Paper headers** (`Literature Review/imports/`) — the current canonical thin-note location for imported paper headers. Older thin headers may still exist under `Literature Review/Papers/`.
+- **Paper headers** (`Literature Review/imports/` and `Literature Review/Papers/`) — new imports land in `imports`; existing curated paper headers may be organized under `Papers` by paper type.
 - **Synthesis notes** ([[Literature Review/Synthesis/README|Literature Review/Synthesis]]) — seven thematic notes where cross-paper argument develops. This is where the literature review is drafted in rough form.
 
 The seven synthesis notes:
@@ -50,7 +50,7 @@ Supporting notes:
 
 ## Short Answer: Where To Start
 
-The overview pass through these three sources is substantially complete — all three have Zotero notes. Treat them as re-read anchors rather than first-time priorities.
+The overview pass through these three sources is substantially complete — all three have Zotero notes and synthesis contributions. Treat them as re-read anchors rather than first-time priorities.
 
 1. [Lev Tankelevitch et al. (2025), *Understanding, Protecting, and Augmenting Human Cognition with Generative AI: A Synthesis of the CHI 2025 Tools for Thought Workshop*](https://arxiv.org/abs/2508.21036)
    - Best single landscape overview.
@@ -155,22 +155,24 @@ Zotero notes exist for all three. Some synthesis work started on Tankelevitch 20
 
 Goal: get the field map, the thesis framing, and the underlying cognitive theory in one pass.
 
-### Stage 1: Understand The Problem (next priority)
+### Stage 1: Understand The Problem (initial synthesis pass complete for core five)
+
+The core problem-mechanism set below now has main notes, Zotero notes, and initial synthesis contributions in [[Literature Review/Synthesis/The Problem]]. Noy and Zhang remains useful as the productivity/adoption counterweight.
 
 1. Colombatto et al. (2025)
 2. Lee et al. (2025)
 3. Fan et al. (2025)
 4. Kreijkes et al. (2025)
 5. Bastani et al. (2025)
-6. Noy and Zhang (2023)
+6. Noy and Zhang (2023) — contrast source still to read/integrate
 
 Goal: identify the strongest evidence for cognitive offloading, confidence distortion, reduced critical thinking, and the perception-performance gap. Feed findings into [[Literature Review/Synthesis/The Problem]].
 
-### Stage 2: Extract Core Design Principles
+### Stage 2: Extract Core Design Principles (current next priority)
 
 1. Zhang and Reicherts (2025)
 2. Rogers et al. (2025)
-3. Gmeiner et al. (2025)
+3. Gmeiner et al. (2025) — main note shell exists under `Literature Review/Papers/Design Papers/`; finish integration
 4. Lehmann et al. (2024)
 5. Lira et al. (2025)
 6. Kazemitabaar et al. (2025)

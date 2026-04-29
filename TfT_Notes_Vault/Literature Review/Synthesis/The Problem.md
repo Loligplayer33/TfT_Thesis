@@ -98,13 +98,6 @@ Confidence in AI systems' capacity to perform a task is consistently associated 
 - Students improved performance on practice problems due to reliance on AI turned into a decreased performance on the test where the AI help was removed from them.  **This negative effect was mitigated with the AI tutor role.** [Page 2](zotero://open-pdf/library/items/ZCMYNYP6?page=2&annotation=YKC79LBT), [Page 4](zotero://open-pdf/library/items/ZCMYNYP6?page=4&annotation=JGB624Y4)
 - Provides more evidence for the perception performance paradox: The students in the GPT group did not perceive any reduction of learning or subsequent performance. **This means that they were unaware of the impeding effects their usage of GenAI had on their learning** [Page 2](zotero://open-pdf/library/items/ZCMYNYP6?page=2&annotation=DMFAGLFH), [Page 4](zotero://open-pdf/library/items/ZCMYNYP6?page=4&annotation=H3RYE96X)
 
-### To integrate once read
-- `colombatto2025` — confidence dynamics in advice-taking. Likely the single strongest source for the confidence-miscalibration mechanism.
-- `lee2025` — survey evidence for self-reported reductions in cognitive effort among knowledge workers.
-- `fan2025` — names "metacognitive laziness" as a mechanism directly aligned with the thesis framing.
-- `kreijkes2025` — experimental evidence for the perception-performance paradox in secondary schools.
-- `bastani2025` — field experiment showing unguarded AI can harm later independent performance.
-
 ## Related
 - [[Literature Review/Bucket/The Metacognitive Framework and the User-AI Cognitive Entanglement Problem|The Metacognitive Framework and the User-AI Cognitive Entanglement Problem]]
 - [[Literature Review/Synthesis/Design Strategies]]

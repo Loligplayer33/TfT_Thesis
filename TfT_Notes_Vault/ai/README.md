@@ -34,6 +34,8 @@ If you are adding a new reusable handoff note, add it to this folder and list it
 
 The canonical reading-plan note is [[Literature Review/Overview Synthesis and Reading Map]]. Do not recreate duplicate reading-map notes at the vault root.
 
+New main paper headers import into `Literature Review/imports/`. Existing curated paper headers may be organized under `Literature Review/Papers/` by paper type. Raw imported Zotero notes and annotation assets stay in `Literature Review/zotero_notes/`.
+
 ## Current Cross-Vault Anchors
 
 - [[THESIS_CONTEXT]]

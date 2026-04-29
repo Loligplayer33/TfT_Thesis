@@ -15,7 +15,7 @@ status: draft
 - Citekey: `leeImpactGenerativeAI2025`
 - [Open in Zotero](zotero://select/library/items/CAJCMZ2Q)
 - [Source URL](https://dl.acm.org/doi/10.1145/3706598.3713778)
-- [[leeImpactGenerativeAI2025|Main note]]
+- [[Literature Review/Papers/Problem Papers/leeImpactGenerativeAI2025|Main note]]
 
 ---
 
@@ -152,4 +152,3 @@ The main skills identified that future knowledge workers should be trained on
 
 
 - No Zotero item notes imported.
-

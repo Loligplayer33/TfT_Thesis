@@ -42,8 +42,8 @@ Treat substantive argument text in `Literature Review/Synthesis/` as user-owned.
 
 ### Import Logic
 
-- Main literature notes are imported into `Literature Review/imports/`.
-- Legacy thin paper headers may still exist under `Literature Review/Papers/`, but the current Zotero import command writes main notes to `Literature Review/imports/`.
+- New main literature notes import into `Literature Review/imports/`.
+- Existing curated paper headers may be organized under `Literature Review/Papers/` by paper type.
 - Raw Zotero notes and annotation-heavy imports are stored in `Literature Review/zotero_notes/`.
 - Raw Zotero notes and their asset folders should stay in `zotero_notes` so re-imports keep updating the same files.
 - Imported filenames should stay **citekey-based**, not title-based, because long title-based filenames caused problems in the OneDrive-backed vault.
@@ -52,6 +52,7 @@ Treat substantive argument text in `Literature Review/Synthesis/` as user-owned.
 
 - `Import overview paper`
   - creates the main thinking note for overview-type papers
+  - writes to `Literature Review/imports/{{citekey}}.md`
 - `Import Zotero notes`
   - creates the companion raw note with Zotero item notes and PDF annotations
   - uses the stable `zotero_notes` folder

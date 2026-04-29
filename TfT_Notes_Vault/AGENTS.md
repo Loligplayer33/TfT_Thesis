@@ -42,7 +42,8 @@ For paper synthesis integration (the "generate synthesis additions" workflow):
 
 ## Zotero Import Conventions
 
-- Main paper notes import into `Literature Review/imports/`.
+- New main paper notes import into `Literature Review/imports/`.
+- Existing curated paper headers may be organized under `Literature Review/Papers/` by paper type.
 - Raw Zotero notes and their assets live in `Literature Review/zotero_notes/`.
 - Imported filenames MUST be citekey-based, not title-based.
 
