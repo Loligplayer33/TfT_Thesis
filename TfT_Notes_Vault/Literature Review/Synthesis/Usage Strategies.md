@@ -36,7 +36,8 @@ Exercising a good usage strategy requires exactly the metacognitive capacities t
 - **Three descriptive shifts in cognitive effort under GenAI.** Knowledge/Comprehension: information gathering → information verification. Application: problem-solving → response integration. Analysis/Synthesis/Evaluation: task execution → task stewardship. These are emergent usage patterns knowledge workers report, not prescriptive strategies — useful as empirical grounding for the claim that cognition relocates rather than disappears under GenAI. _(§5.2, pp12–14)_
 - **"Stewardship" proposed as the user-side role.** Lee et al. explicitly prefer "stewardship" over "teammate", "collaborator", or "supervisor" because accountability remains with the user while material production is delegated. The framing is about the _user's_ role, not the AI's — relevant for how the framework chapter treats user-side roles in its Role → Strategy → Cognitive Function chain. _(§6.2, p15)_
 
-
+### [[kreijkesEffectsLLMUse2025]]
+- **Training/usage strategies**: teaching students to ask targeted questions and integrate information rather than passively consume summaries. [Page 14](zotero://open-pdf/library/items/EE4UFA92?page=14&annotation=XB4XZUYH)
 
 ### To integrate once read
 - `lehmann2024` — solution-seeking harms, explanation-seeking helps. The cleanest experimental case for a usage strategy.

@@ -13,8 +13,10 @@ This note connects the GenAI-specific findings from HCI research back to durable
 ### Working Thoughts
 (tankelevitchMetacognitiveDemandsOpportunities2024) is the connective tissue between the learning-theory anchors (Bjork, Kapur, Vygotsky) and the HCI/GenAI papers. Desirable Difficulties justifies why friction helps; the metacognitive framework specifies _what cognitive capacities the friction is protecting and activating_. Without that middle layer, the thesis would either be learning theory applied by analogy to GenAI, or HCI design patterns without theoretical justification. The paper's framework is what makes the bridge coherent.
 
-### Synthesized Position
+Fan introduces a complementary theoretical pair: Risko & Gilbert (2016) cognitive offloading and Alter et al. (2007) disfluency-System 2. The Alter frame is the dual-process complement to processing fluency from `tankelevitch2024` — AI fluency removes the disfluency cue that would otherwise trigger analytical thinking. Worth citing alongside Tankelevitch whenever the laziness mechanism is introduced. SRL theory (Zimmerman) appears in Fan as measurement scaffolding, not as architectural frame; not a candidate for the thesis's primary cognitive frame.
 
+### Synthesized Position
+//to fill later on
 
 ## Paper Contributions
 
@@ -43,8 +45,10 @@ This note connects the GenAI-specific findings from HCI research back to durable
 - Changes in confidence from prospective to retrospective measures suggest that completing a task boosts users’ own confidence in their ability, while receiving support from a GenAI might boost confidence in the capabilities of the GenAI instead.” - A key result from study 1 [Page 23](zotero://open-pdf/library/items/47Q4FLQL?page=23&annotation=54XQ3AKW)
 - Key finding of study 2: Exposure to GenAI advice leads to increases confidence in the GenAI - no matter if they sought advice or not. => This finding may also be caused by the fact that people just structurally underestimated the capabilities of GenAI in 2024 when this study was conducted and does not implicate a general behavior that usage of GenAI always increases the confidence in it.[Page 28](zotero://open-pdf/library/items/47Q4FLQL?page=28&annotation=DN4X65H6)
 - The increased self-confidence and confidence in the system gained through genAI advice exposure did NOT carry over to other occasions (§3.2.2)
-- 
 
+### [[leeImpactGenerativeAI2025]]
+- **Risko & Gilbert (2016) cognitive offloading as theoretical anchor.** Reliance on external resources reduces internal cognitive engagement, leading to a habitual reduction in monitoring and self-regulation. Fan adopts this as one of the two foundational frameworks for metacognitive laziness. (§1, p4; §5.2, p17)
+- **Alter et al. (2007) disfluency-System 2 as the dual-process complement.** Metacognitive experiences of difficulty or disfluency activate analytical (System 2) reasoning. AI's fluency removes the disfluency cue that would otherwise trigger analytical thinking — the dual-process counterpart to processing fluency in `tankelevitch2024`. Cite Alter alongside Tankelevitch when introducing the laziness mechanism. (§1, p4; §5.2, p17)
 
 
 

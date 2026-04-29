@@ -61,7 +61,8 @@ The psychological ability to monitor and control one's thoughts and behavior
 - **Metacognitive Control**: Ability to guide one's own thinking (task decomposition, flexibility)
 	- Metacognitive flexibility: Ability to shift cognitive strategies when encountering new information
 	- Task decomposition: Ability to break down a task into concrete, actionable sub-tasks and steps
-
+  
+- **Metacognitive laziness**: Learners' dependence on AI assistance, offloading metacognitive load, and less effectively associating responsible metacognitive processes with learning tasks. [Page 17](zotero://open-pdf/library/items/HS4Z9X7A?page=17&annotation=6RV7CVN6)
 - Metacognitive demand: The need for extensive metacognitive monitoring and control for a task [Page 5](zotero://open-pdf/library/items/JMV6BSEZ?page=5&annotation=DNPQIRAY)
 - Cognitive load: the total amount of mental effort required for a task [Page 5](zotero://open-pdf/library/items/JMV6BSEZ?page=5&annotation=DNPQIRAY) 
 

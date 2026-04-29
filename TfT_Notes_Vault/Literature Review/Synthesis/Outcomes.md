@@ -28,6 +28,9 @@ The Quality of outcomes of tools for thought shall not only be evaluated by task
 	2. Cognitive outcomes: Changes in understanding, learning or cognitive skills (critical thinking) as well as metacognitive engagement
 	3. Task outcomes: The output generated to solve the actual task at hand (this is where the focus is for most GenAI tools - here this is just dimension)
 
+### [[fanBewareMetacognitiveLaziness2025]]
+- **Empirical instance of the three-type outcomes typology.** AI condition significantly improved task outcomes (essay score) while leaving cognitive outcomes flat (knowledge gain, knowledge transfer). Direct evidence that task and cognitive outcomes are _separable_ in practice — a strategy can move them independently. Strengthens the existing SP that TfTs must be evaluated against multiple outcome dimensions (currently anchored only on `zhang2026tools`). (§4.3, pp16–17
+
 ### To integrate once read
 
 - `rogersAugmentingHumanCognition2025` — canonical source for the three-type outcomes typology (intermediary / cognitive / task). Handbook chapter that consolidates the process-oriented-support research program. Anchors how the framework evaluates whether a strategy does what it claims. (Citekey placeholder — confirm on Zotero import.)
